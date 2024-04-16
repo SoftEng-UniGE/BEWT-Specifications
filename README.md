@@ -1,4 +1,5 @@
 E2E Web Testing Benchmark 
+
 (Installation instructions and Gherkin specifications)
 =========================
 
