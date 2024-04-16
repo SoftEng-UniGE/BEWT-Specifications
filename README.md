@@ -1,4 +1,5 @@
-E2E Web Testing Benchmark (Installation instructions and Gherkin specifications)
+E2E Web Testing Benchmark 
+(Installation instructions and Gherkin specifications)
 =========================
 
 This repository contains a collection of Gherkin specifications for defining End-to-End (E2E) Web test suites for 8 different Web applications along with instructions to run these Web apps.
