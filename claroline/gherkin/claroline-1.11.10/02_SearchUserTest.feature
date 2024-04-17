@@ -10,6 +10,3 @@ Scenario: Search a user in the system
 	Then "Name001" is shown in the "Name" column of the first row of the table
 	And "Firstname001" is shown in the "First name" column of the first row of the table
 	And "User" is shown in the "Status" coulmn of the first row of the table
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link

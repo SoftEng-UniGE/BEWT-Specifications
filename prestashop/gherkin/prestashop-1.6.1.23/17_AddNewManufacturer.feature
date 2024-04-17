@@ -6,6 +6,6 @@ Scenario: Adds a new manufacturer
 		And hovers on "Catalog"
 		And clicks on "Manufacturers"
 		And clicks the "Add new manufacturer" button
-        And enters "Smith" in the "Name" field
-        And clicks the "Save" button
+		And enters "Smith" in the "Name" field
+		And clicks the "Save" button
 	Then "Successful creation" is shown on a green box

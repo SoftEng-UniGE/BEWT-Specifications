@@ -10,9 +10,5 @@ Scenario: The user tries to enrol to a password protected course using a wrong p
 		And clicks the enrolment button
 		And enters "passowrd" in the "Enrolment key" text field
 		And clicks the "Ok" button
-
 	Then "Invalid enrolment key given" is shown on a red box
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
 

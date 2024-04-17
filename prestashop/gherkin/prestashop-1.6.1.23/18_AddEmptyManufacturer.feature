@@ -6,5 +6,5 @@ Scenario: Tries to add a manufacturer without name and fails
 		And hovers on "Catalog"
 		And clicks on "Manufacturers"
 		And clicks the "Add new manufacturer" button
-        And clicks the "Save" button
+		And clicks the "Save" button
 	Then an error message is shown on a red box

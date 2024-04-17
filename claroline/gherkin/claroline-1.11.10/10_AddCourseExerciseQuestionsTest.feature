@@ -44,6 +44,3 @@ Scenario: Adds questions to an exercise
 	And the second row of the table contains "Question 2" in the "Question" column and "True/False" in the "Answer type" column
 	And the third row of the table contains "Question 3" in the "Question" column and "Multiple choice (Multiple answers)" in the "Answer type" column
 
-	Given the previous assertions passed
-	Then the user clicks the "Logout" link
-

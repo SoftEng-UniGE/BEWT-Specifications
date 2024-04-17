@@ -11,6 +11,3 @@ Scenario: Enrols a user to a course
 
 	Then "You've been enrolled on the course" is shown on a green box
 
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-

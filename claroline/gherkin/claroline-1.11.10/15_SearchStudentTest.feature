@@ -9,6 +9,3 @@ Scenario: Searches a student in the system
 		And selects "Student" in the "Action" dropdown select
 		And clicks the "Search user" button
 	Then "testuser1" is shown in the "Name" column of the first row of the table
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link

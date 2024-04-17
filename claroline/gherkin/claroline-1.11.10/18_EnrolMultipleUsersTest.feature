@@ -40,6 +40,3 @@ Scenario: Enrols a user to a course
 	And the page contains "testuser2"
 	And the page contains "testuser3"
 
-	Given the previous assertions passed
-	Then the user clicks the "Logout" link
-

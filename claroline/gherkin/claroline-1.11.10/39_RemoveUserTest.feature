@@ -7,10 +7,6 @@ Scenario: Removes a user from the system
 		And enters "user001" into the "Search for a user" field
 		And clicks the icon in the "Delete" column of the first row of the table
 		And accepts the JavaScript alert
-
 	Then the page does not contain "Name001"
 	And the page does not contain "Firstname001"
-
-	Given the previous assertions passed
-	Then the user clicks the "Logout" link
 		

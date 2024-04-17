@@ -6,8 +6,8 @@ Scenario: Changes a manufacturer's name
 		And hovers on "Catalog"
 		And clicks on "Manufacturers"
 		And clicks the down pointing arrow icon at the end of the row of "Smith"
-        And clicks the "Edit" link
-        And clears the "Name" field
-        And enters "Smith Co" in the "Name" field
-        And clicks the "Save" button
+		And clicks the "Edit" link
+		And clears the "Name" field
+		And enters "Smith Co" in the "Name" field
+		And clicks the "Save" button
 	Then "Successful update" is shown on a green box

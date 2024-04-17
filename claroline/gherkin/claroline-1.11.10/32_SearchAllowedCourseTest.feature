@@ -10,6 +10,3 @@ Scenario: Searches a course using the advanced search function
 		And clicks the "Search course" button
 	Then "Course001" is shown in the "Course title" column of the first row of the table
 
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-

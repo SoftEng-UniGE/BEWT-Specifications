@@ -3,9 +3,9 @@ Scenario: Tries to add a field without specifying the title and fails
 		When the user enters "administrator" in the "Username" field
 		And enters "root" in the "Password" field
 		And clicks the "Sign in" button
-	 	And clicks the "Site Administrator" link
-	 	#a new tab opens
-	 	And enters "administrator" in the "Username" field
+		And clicks the "Site Administrator" link
+		#a new tab opens
+		And enters "administrator" in the "Username" field
 		And enters "root" in the "Password" field
 		And clicks the "Log in" button
 		And clicks the "Articles" link

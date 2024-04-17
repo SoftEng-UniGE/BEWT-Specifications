@@ -8,9 +8,5 @@ Scenario: Tries to enrol to a closed registration course and fails
 		And clicks the "Search" button
 		#the button is an icon to the right of the "003 - Course003" link
 		And clicks the enrolment button
-
 	Then "This course currently does not allow new enrolments (registration: close)" is shown on a red box
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
 

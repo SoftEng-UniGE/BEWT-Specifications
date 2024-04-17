@@ -6,7 +6,7 @@ Scenario: Edits a customer address
 		And hovers on "Customers"
 		And clicks on "Addresses"
 		And clicks the "Edit" button in the first row
-        And clears the "First Name" field
-        And enters "Bob" in the "First name" field
+		And clears the "First Name" field
+		And enters "Bob" in the "First name" field
 		And clicks the "Save" button
 	Then "Successful upate" is shown on a green box

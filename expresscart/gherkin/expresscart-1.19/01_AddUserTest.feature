@@ -11,6 +11,3 @@ Scenario: Adds a user to the system
 		And clicks the "Create" button
 		And clicks the "Users" link
 	Then "User: TestUser000 - (test000@test.com)\nRole: User" is shown in the third row of the table
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link

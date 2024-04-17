@@ -6,9 +6,9 @@ Scenario: Adds a new supplier
 		And hovers on "Catalog"
 		And clicks on "Suppliers"
 		And clicks the "Add new supplier" button
-        And enters "John" in the "Name" field
-        And enters "Via Fianle Ligure" in the "Address" field
-        And enters "Finale Ligure" in the "City" field
-        And enters "Italy" in the "Country" field
-        And clicks the "Save" button
+		And enters "John" in the "Name" field
+		And enters "Via Fianle Ligure" in the "Address" field
+		And enters "Finale Ligure" in the "City" field
+		And enters "Italy" in the "Country" field
+		And clicks the "Save" button
 	Then "Successful creation" is shown on a green box

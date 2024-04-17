@@ -11,7 +11,3 @@ Scenario: Does an exercise in the role of a user
 		And clicks the first checkbox for "Question 3"
 		And clicks the "Finish the test" button
 	Then "Your total score is 9/9" is shown at the bottom of the page
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-

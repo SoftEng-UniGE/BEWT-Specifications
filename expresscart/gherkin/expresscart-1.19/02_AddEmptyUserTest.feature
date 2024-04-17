@@ -6,6 +6,3 @@ Scenario: Tries to add a empty user to the system and fails
 		And clicks the "+" icon to the right of the link "Users"
 		And clicks the "Create" button
 	Then all the fields are highlighted in red
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link

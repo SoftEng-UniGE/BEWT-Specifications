@@ -6,6 +6,6 @@ Scenario: Deletes a supplier
 		And hovers on "Catalog"
 		And clicks on "Suppliers"
 		And clicks the down pointing arrow icon at the end of the row of "John"
-        And clicks the "Delete" link
-        And accepts the JavaScript alert
+		And clicks the "Delete" link
+		And accepts the JavaScript alert
 	Then "Successful deletion" is shown on a green box

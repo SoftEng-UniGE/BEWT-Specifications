@@ -6,5 +6,5 @@ Scenario: Tries to add an empty supplier and fails
 		And hovers on "Catalog"
 		And clicks on "Suppliers"
 		And clicks the "Add new supplier" button
-        And clicks the "Save" button
+		And clicks the "Save" button
 	Then an error message is shown on a red box

@@ -13,6 +13,6 @@ Scenario: Changes the application language (and then sets it back to English)
 
 	Given the previous assertions passed
 		When the user selects "English (US)" in the "Lingua" dropdown select
-		And clicks the "Salva" butto
+		And clicks the "Salva" button
 	Then the language selection dropdown select is now labeled "Language"
 	And "English (US)" is selected in the "Language" dropdown select

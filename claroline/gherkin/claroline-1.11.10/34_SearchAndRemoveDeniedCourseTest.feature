@@ -13,6 +13,4 @@ Scenario: Searches a denied course using the advanced search function and then r
 		When the user clicks the red cross in the "Delete" column of the table
 		And confirms the JavaScript alert
 	Then "The course has been successfully deleted" is shown on a green box
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
 

@@ -9,6 +9,3 @@ Scenario: Tries to add a course without filling the required fields and fails
 	Then "Course title needed" is shown on the page
 	And "Course code needed" is shown on the page
 
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-

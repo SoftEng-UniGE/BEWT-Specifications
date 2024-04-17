@@ -4,7 +4,7 @@ Scenario: Opens the previously created menu to see the archived articles
 		And enters "root" in the "Password" field
 		And clicks the "Sign in" button
 		And clicks the "Home" link
-	 	And clicks the "Test menu item" link
+		And clicks the "Test menu item" link
 	Then "Your Modules" is shown on the page
 
 

@@ -6,6 +6,6 @@ Scenario: Adds a new category
 		And hovers on "Catalog"
 		And clicks on "Categories"
 		And clicks the "Add new category" button
-        And enters "Winters Collection" in the "Name" field
-        And clicks the "Save" button
+		And enters "Winters Collection" in the "Name" field
+		And clicks the "Save" button
 	Then "Successful creation" is shown on a green box

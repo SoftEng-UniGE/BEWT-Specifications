@@ -7,9 +7,5 @@ Scenario: Removes a course from the system
 		And enters "Course001" into the "Search for a course" field
 		And clicks the icon in the "Delete" column of the first row of the table
 		And accepts the JavaScript alert
-
 	Then "The course has been successfully deleted" is shown on a green box
-
-	Given the previous assertions passed
-	Then the user clicks the "Logout" link
 		

@@ -6,7 +6,7 @@ Scenario: Changes the name of a category
 		And hovers on "Catalog"
 		And clicks on "Categories"
 		And clicks the "Edit" button on the row of "Winters Collection"
-        And clears the "Name" field
-        And enters "Fall Collection" in the "Name" field
-        And clicks the "Save" button
+		And clears the "Name" field
+		And enters "Fall Collection" in the "Name" field
+		And clicks the "Save" button
 	Then "Successful update" is shown on a green box

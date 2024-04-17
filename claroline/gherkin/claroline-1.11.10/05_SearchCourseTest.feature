@@ -8,7 +8,3 @@ Scenario: Searches a course
 		And clicks the "Go" button on the right of the "Search for a course" field
 	Then "Course001" is shown in the "Course title" column of the first row of the table
 	And "001" is shown in the "Code" column of the first row of the table
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-

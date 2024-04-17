@@ -6,7 +6,7 @@ Scenario: Adds a new product attribute
 		And hovers on "Catalog"
 		And clicks on "Product Attributes"
 		And clicks the "Add new attribute" button
-        And enters "Quantity" in the "Name" field
-        And enters "Qnt" in the "Public name" field
+		And enters "Quantity" in the "Name" field
+		And enters "Qnt" in the "Public name" field
 		And clicks the "Save" button
 	Then "Successful creation" is shown on a green box

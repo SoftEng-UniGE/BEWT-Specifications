@@ -8,7 +8,3 @@ Scenario: Removes enrolment of a user to a course
 		And clicks the second button to the right of "001 - Course001"
 		And confirms the JavaScript alert
 	Then "Your enrollment on the course has been removed" is shown on a green box
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-

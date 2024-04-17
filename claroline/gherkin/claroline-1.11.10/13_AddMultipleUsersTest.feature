@@ -33,6 +33,3 @@ Scenario: Adds a user to the system
 	Then the page contains "testuser1"
 	And the page contains "testuser2"
 	And the page contains "testuser3"
-
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link

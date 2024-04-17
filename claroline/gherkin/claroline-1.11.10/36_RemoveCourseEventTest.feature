@@ -9,6 +9,3 @@ Scenario: Removes an event from a course
 		And confirms the JavaScript alert
 	Then "Event deleted from the agenda" is shown in a green box
 
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link
-
