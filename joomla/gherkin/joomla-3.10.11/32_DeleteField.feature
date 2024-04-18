@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Deletes a field
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,9 +14,3 @@ Scenario: Deletes a field
 		And clicks the checkbox to the left of "Test Field 000"
 		And clicks the "Trash" button
 	Then "Test Field 000" is not shown in the page
-
-
-
-
-
-

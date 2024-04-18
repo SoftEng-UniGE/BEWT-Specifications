@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Searches a password protected course using the advanced search function and then removes it
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -13,4 +14,3 @@ Scenario: Searches a password protected course using the advanced search functio
 		When the user clicks the red cross in the "Delete" column of the table
 		And confirms the JavaScript alert
 	Then "The course has been successfully deleted" is shown on a green box
-

@@ -1,3 +1,4 @@
+Feature: Site menus management
 Scenario: Adds a menu item
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -21,8 +22,3 @@ Scenario: Adds a menu item
 		And clicks the "Save & Close" button
 	Then "Menu item saved" is shown on a green box
 	And "Test menu item" is shown as last element of the table
-
-
-
-
-

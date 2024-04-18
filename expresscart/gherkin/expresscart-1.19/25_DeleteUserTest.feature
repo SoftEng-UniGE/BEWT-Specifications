@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Deletes a user
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field
@@ -8,4 +9,3 @@ Scenario: Deletes a user
 		And accepts the JavaScript alert
 		And clicks on the "Users" link
 	Then "test000@test.com" is not shown on the page
-

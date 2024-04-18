@@ -1,3 +1,4 @@
+Feature: Customer management
 Scenario: Edits a customer address
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

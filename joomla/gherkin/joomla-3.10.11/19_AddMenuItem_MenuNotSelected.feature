@@ -1,3 +1,4 @@
+Feature: Site menus management
 Scenario: Tries to add a menu item without selecting a menu and fails
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -19,8 +20,3 @@ Scenario: Tries to add a menu item without selecting a menu and fails
 		#the iframe closes
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Menu" is shown on a red box
-
-
-
-
-

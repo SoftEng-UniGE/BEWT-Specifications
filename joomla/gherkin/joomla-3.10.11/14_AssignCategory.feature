@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Assigns a category to an article
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,4 +14,3 @@ Scenario: Assigns a category to an article
 		And selects "Test Category 001" from the "Category" dropdown select
 		And clicks the "Save & Close" button
 	Then "Test Category 001" is shown below the "Your Template" link
-

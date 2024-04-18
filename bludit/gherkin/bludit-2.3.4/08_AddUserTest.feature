@@ -1,4 +1,5 @@
-Feature: Adds a user to the system
+Feature: User management
+Scenario: Adds a user to the system
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -12,5 +13,3 @@ Feature: Adds a user to the system
 		And selects "Administrator" in the "Role" dropdown select
 		And clicks the "Save" button
 	Then "usertest" appears as second user in the "Users" page
-
-

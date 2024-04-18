@@ -1,4 +1,5 @@
-Feature: Change the position of a content
+Feature: Content management
+Scenario: Change the position of a content
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -13,7 +14,3 @@ Feature: Change the position of a content
 		And clicks the "Test Content" link
 		And clicks the "ADVANCED" button on the right of the screen
 	Then "30" is shown as value of the "POSITION" field
-
-
-
-

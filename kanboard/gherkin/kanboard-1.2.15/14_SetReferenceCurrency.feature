@@ -1,3 +1,4 @@
+Feature: Site administration
 Scenario: Changes the reference currency
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field

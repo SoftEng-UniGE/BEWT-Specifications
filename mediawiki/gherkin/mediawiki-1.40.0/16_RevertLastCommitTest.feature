@@ -1,3 +1,4 @@
+Feature: Page versioning
 Scenario: The last edit made to a page is reverted
 	Given the user is on the home page
 	When the user clicks the "Log in" link

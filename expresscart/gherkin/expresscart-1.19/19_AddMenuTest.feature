@@ -1,3 +1,4 @@
+Feature: Site menus
 Scenario: Adds a menu
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field
@@ -11,5 +12,3 @@ Scenario: Adds a menu
 		And clicks the green "+" button
 	#the box is displayed for about 2 seconds, then disappears
 	Then "Menu created successfully" appears in a green box at the bottom of the screen
-
-

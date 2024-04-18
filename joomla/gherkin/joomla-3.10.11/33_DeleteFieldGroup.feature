@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Deletes a field group
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,9 +14,3 @@ Scenario: Deletes a field group
 		And clicks the checbox to the left of "Test Group 000"
 		And clicks the "Trash" button
 	Then "Test Group 000" is not shown in the page
-
-
-
-
-
-

@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Unlinks two subprojects from their parent project
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link
@@ -11,4 +12,3 @@ Scenario: Unlinks two subprojects from their parent project
 	When the user clicks "Unlink" link in the row of "testSubProject2"
 		And clicks the "Proceed" link
 	Then "testSubProject2" is not shown on the page
-

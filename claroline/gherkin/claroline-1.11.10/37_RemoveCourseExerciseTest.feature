@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Removes an exercise from a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field

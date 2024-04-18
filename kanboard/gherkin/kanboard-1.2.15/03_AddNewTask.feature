@@ -1,3 +1,4 @@
+Feature: Task management
 Scenario: Adds a new task to a project
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field

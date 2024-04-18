@@ -1,3 +1,4 @@
+Feature: Localization management
 Scenario: Checks the iso code for a language
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

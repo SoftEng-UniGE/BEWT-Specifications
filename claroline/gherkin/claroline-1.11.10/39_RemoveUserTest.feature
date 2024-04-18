@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Removes a user from the system
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -9,4 +10,3 @@ Scenario: Removes a user from the system
 		And accepts the JavaScript alert
 	Then the page does not contain "Name001"
 	And the page does not contain "Firstname001"
-		

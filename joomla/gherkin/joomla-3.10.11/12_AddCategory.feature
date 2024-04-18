@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Adds a category
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,4 +14,3 @@ Scenario: Adds a category
 		And enters "Test Category 001" in the "Title" field
 		And clicks the "Save & Close" button
 	Then "Test Category 001" is shown on the page
-

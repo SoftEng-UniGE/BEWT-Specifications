@@ -1,3 +1,4 @@
+Feature: Page management
 Scenario: Protects a page from being edited by non-admin users
 	Given the user is on the home page
 	When the user clicks the "Log in" link

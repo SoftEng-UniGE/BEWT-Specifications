@@ -1,3 +1,4 @@
+Feature: Issue management
 Scenario: Deletes an issue
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "View issues" link

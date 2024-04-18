@@ -1,4 +1,5 @@
-Feature: Changes the home page of the site
+Feature: Site administration
+Scenario: Changes the home page of the site
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -7,8 +8,3 @@ Feature: Changes the home page of the site
 		And selects "Create your own content" in the "Homepage" dropdown select
 		And clicks on the "Save" button
 	Then "Create your own content" appears as selected value in the "Homepage" dropdown select
-
-
-
-
-

@@ -1,3 +1,4 @@
+Feature: Catalog management
 Scenario: Deletes a product
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field
@@ -8,4 +9,3 @@ Scenario: Deletes a product
 		And accepts the JavaScript alert
 		And clicks on the "Products" link
 	Then "NewProduct000" is not shown on the page
-

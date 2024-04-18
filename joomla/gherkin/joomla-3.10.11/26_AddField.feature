@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Adds a field
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -14,9 +15,3 @@ Scenario: Adds a field
 		And enters "Test Field 000" in the "Title" field
 		And clicks the "Save & Close" button
 	Then "Test Field 000" is shown in the table
-
-
-
-
-
-

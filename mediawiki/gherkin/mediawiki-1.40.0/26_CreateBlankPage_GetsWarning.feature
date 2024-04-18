@@ -1,3 +1,4 @@
+Feature: Page editor
 Scenario: Tries to create a blank page and gets a warning
 	Given the user is on the home page
 	When the user clicks the "Log in" link

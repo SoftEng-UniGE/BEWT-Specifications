@@ -1,3 +1,4 @@
+Feature: Discount codes
 Scenario: Adds a discount code (by percent) to the system
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field

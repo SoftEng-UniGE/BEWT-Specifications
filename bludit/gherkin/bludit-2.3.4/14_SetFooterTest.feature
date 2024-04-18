@@ -1,4 +1,5 @@
-Feature: Sets a footer for the site
+Feature: Site administration
+Scenario: Sets a footer for the site
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -7,8 +8,3 @@ Feature: Sets a footer for the site
 		And enters "E2E Web Testing benchmark" in the "Footer" field
 		And clicks the "Save" button
 	Then "E2E Web Testing benchmark" is shown as value of the "Footer" field
-
-
-
-
-

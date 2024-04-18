@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Remove multiple users from the system
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -11,9 +12,7 @@ Scenario: Remove multiple users from the system
 		And accepts the JavaScript alert
 		And clicks the icon in the "Delete" column of the first row of the table
 		And accepts the JavaScript alert
-
 	Then "Deletion of the user was done sucessfully" is shown in a green box
 	And the page does not contain "testuser1"
 	And the page does not contain "testuser2"
 	And the page does not contain "testuser3"
-		

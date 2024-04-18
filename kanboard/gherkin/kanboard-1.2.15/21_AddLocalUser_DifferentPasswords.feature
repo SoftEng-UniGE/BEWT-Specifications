@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a local user with non matching passwords and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -13,5 +14,3 @@ Scenario: Tries to add a local user with non matching passwords and fails
 		And enters "123test" in the "Confirmation" field
 		And clicks the "Save" button
 	Then "Passwords don't match" is shown below the "Password" field
-
-

@@ -1,4 +1,5 @@
-Feature: Deletes a category
+Feature: Content management
+Scenario: Deletes a category
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -7,6 +8,3 @@ Feature: Deletes a category
 		And clicks the "Category001" link
 		And clicks on the "Delete" button
 	Then "Category001" is not shown in the "Categories" page
-
-
-

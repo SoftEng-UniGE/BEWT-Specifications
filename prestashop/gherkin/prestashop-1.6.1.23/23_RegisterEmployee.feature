@@ -1,3 +1,4 @@
+Feature: Employee management
 Scenario: Adds a new employee
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

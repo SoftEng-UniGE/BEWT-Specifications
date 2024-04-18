@@ -1,3 +1,4 @@
+Feature: Page redirection
 Scenario: Searches a keyword for which a redirect has been defined
 	Given the user is on the home page
 	When the user enters "Testing" in the search bar

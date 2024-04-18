@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Blocks a user
 	Given the user is on the home page
 	When the user clicks the "Log in" link

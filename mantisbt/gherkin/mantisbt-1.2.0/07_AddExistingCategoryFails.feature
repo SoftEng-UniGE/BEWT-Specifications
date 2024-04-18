@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Tries to add an existing category and fails
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link

@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a empty user to the system and fails
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field

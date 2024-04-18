@@ -1,4 +1,5 @@
-Feature: Adds a new category
+Feature: Content management
+Scenario: Adds a new category
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -8,7 +9,3 @@ Feature: Adds a new category
 		And enters "Category001" into the "Name" field
 		And clicks the "Save" button
 	Then "Category001" is shown as first category in the "Categories" page
-		
-
-
-

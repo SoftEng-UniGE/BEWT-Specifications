@@ -1,3 +1,4 @@
+Feature: Course enrolment
 Scenario: Unsubscribe multiple users from a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -14,4 +15,3 @@ Scenario: Unsubscribe multiple users from a course
 	Then the page does not contain "testuser1"
 	And the page does not contain "testuser2"
 	And the page does not contain "testuser3"
-		

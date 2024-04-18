@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Adds questions to an exercise
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -43,4 +44,3 @@ Scenario: Adds questions to an exercise
 	Then the first row of the table contains "Question 1" in the "Question" column and "Multiple choice (Unique answer)" in the "Answer type" column
 	And the second row of the table contains "Question 2" in the "Question" column and "True/False" in the "Answer type" column
 	And the third row of the table contains "Question 3" in the "Question" column and "Multiple choice (Multiple answers)" in the "Answer type" column
-

@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: A newly promoted admin successfully edits a protected page
 	Given the user is on the home page
 	When the user clicks the "Log in" link

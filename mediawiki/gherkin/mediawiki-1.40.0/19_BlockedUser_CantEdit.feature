@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: A blocked user tries to edit a page and fails
 	Given the user is on the home page
 	When the user clicks the "Log in" link

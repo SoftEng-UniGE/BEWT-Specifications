@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Adds an exercise to a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -9,4 +10,3 @@ Scenario: Adds an exercise to a course
 		And enters "Exercise 001" in the "Title" field
 		And clicks the "Ok" button
 	Then "Exercise added" is shown in a green box
-

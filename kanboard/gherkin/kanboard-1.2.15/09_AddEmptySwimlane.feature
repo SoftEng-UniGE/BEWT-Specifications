@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Tries to add a swimlane without name and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field

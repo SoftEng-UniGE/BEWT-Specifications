@@ -1,3 +1,4 @@
+Feature: Site administration login
 Scenario: Logins as the newly added user
 	Given the user is on the home page
 		When the user enters "tuser01" in the "Username" field

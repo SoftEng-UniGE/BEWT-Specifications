@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Deletes a user
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link
@@ -7,4 +8,3 @@ Scenario: Deletes a user
 		And clicks the "Delete Account" button
 		And clicks "Proceed"
 	Then "username001" is not shown on the page
-

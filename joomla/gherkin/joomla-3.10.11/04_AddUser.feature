@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a new user
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field

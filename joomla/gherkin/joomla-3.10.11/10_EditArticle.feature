@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Edits an article
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field

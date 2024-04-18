@@ -1,3 +1,4 @@
+Feature: Login
 Scenario: Logins as the newly added user
 	Given the user is on the administrative home page (/admin)
 		When the user enters "test000@test.com" in the "email address" field

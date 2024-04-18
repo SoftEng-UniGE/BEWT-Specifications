@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Promotes a standard user to administrator
 	Given the user is on the home page
 	When the user clicks the "Log in" link

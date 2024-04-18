@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a local user without confirming the password and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -12,5 +13,3 @@ Scenario: Tries to add a local user without confirming the password and fails
 		And enters "test123" in the "Password" field
 		And clicks the "Save" button
 	Then "The confirmation is required" is shown below the "Confirmation" field
-
-

@@ -1,3 +1,4 @@
+Feature: Product review
 Scenario: Checks the review to a product
 	Given the user is on the home page 
 		When the user clicks the "NewProduct000" link
@@ -5,4 +6,3 @@ Scenario: Checks the review to a product
 	Then "Title: Review000" is shown on the page
 	And "Description: Description000" is shown on the page
 	And "Rating: 5" is shown on the page
-

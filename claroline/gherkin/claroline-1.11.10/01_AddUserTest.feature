@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a user to the system
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field

@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds three new users
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link

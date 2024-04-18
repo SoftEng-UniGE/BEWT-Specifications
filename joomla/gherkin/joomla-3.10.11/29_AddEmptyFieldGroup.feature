@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Tries to add an empty field group and fails
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,9 +14,3 @@ Scenario: Tries to add an empty field group and fails
 		And clicks the "New" button
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Title" is shown in a red box
-
-
-
-
-
-

@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Adds a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -15,4 +16,3 @@ Scenario: Adds a course
 		And clicks the "Allowed" radio button
 		And clicks the "Ok" button
 	Then "You have just created the course website : 001" is shown in a green box
-

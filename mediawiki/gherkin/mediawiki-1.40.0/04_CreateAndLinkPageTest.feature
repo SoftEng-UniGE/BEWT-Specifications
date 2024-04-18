@@ -1,3 +1,4 @@
+Feature: Page editor
 Scenario: Creates a new page containing an hyperlink to another page
 	Given the user is on the home page
 	When the user clicks the "Log in" link

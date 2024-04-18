@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Deletes a project
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link
@@ -6,4 +7,3 @@ Scenario: Deletes a project
 		And clicks the "Delete Project" button
 		And clicks the "Delete Project" button
 	Then "Project001" is not shown on the page
-

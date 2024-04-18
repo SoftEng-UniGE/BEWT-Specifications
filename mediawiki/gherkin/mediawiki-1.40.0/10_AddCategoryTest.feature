@@ -1,3 +1,4 @@
+Feature: Page management
 Scenario: Adds a new category
 	Given the user is on the home page
 	When the user clicks the "Log in" link

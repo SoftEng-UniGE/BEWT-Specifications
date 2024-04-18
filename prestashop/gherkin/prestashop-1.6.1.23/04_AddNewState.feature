@@ -1,3 +1,4 @@
+Feature: Localization management
 Scenario: Adds a new state
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

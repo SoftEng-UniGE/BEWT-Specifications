@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a user with the same data of an already existing user and fails
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field

@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Assigns a user to a group
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -14,9 +15,3 @@ Scenario: Assigns a user to a group
 		And clicks the "Test Group 000" checkbox
 		And clicks the "Save & Close" button
 	Then the "Test User" row of the table contains "Test Group 000" in the "User Groups" column
-
-
-
-
-
-

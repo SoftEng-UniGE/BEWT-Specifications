@@ -1,3 +1,4 @@
+Feature: Employee management
 Scenario: Tries to add a new employee without permission profile and fails
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

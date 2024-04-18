@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a group
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -14,9 +15,3 @@ Scenario: Adds a group
 		And enters "Test Group 000" in the "Group Title" field
 		And clicks the "Save & Close" button
 	Then "Test Group 000" is shown in the last row of the table
-
-
-
-
-
-

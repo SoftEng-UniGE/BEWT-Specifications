@@ -1,3 +1,4 @@
+Feature: Course exercises
 Scenario: Does an exercise in the role of a user
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "user001" in the "Username" field

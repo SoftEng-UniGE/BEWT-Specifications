@@ -1,3 +1,4 @@
+Feature: Catalog managementFeature: Catalog management
 Scenario: Changes a manufacturer's name
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

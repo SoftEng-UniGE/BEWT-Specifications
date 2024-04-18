@@ -1,4 +1,5 @@
-Feature: Set a content as sticky
+Feature: Content management
+Scenario: Set a content as sticky
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -10,6 +11,3 @@ Feature: Set a content as sticky
 		And clicks the "Save" button
 		And clicks the "Content" link
 	Then "Set up your new site" is shown as first post in the "STICKY" section
-
-
-

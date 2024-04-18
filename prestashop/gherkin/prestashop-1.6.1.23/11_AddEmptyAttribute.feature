@@ -1,3 +1,4 @@
+Feature: Catalog management
 Scenario: Tries to add an empty product attribute and fails
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

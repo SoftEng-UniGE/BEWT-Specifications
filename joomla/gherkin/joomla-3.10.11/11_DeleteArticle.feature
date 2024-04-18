@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Deletes an article
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,4 +14,3 @@ Scenario: Deletes an article
 		And clicks the "Trash" button
 	Then "1 article trashed" is shown in a green box
 	And "Test Article 01" is not shown on the page
-

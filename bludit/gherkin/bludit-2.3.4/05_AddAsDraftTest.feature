@@ -1,4 +1,5 @@
-Feature: Add a new draft
+Feature: Content management
+Scenario: Add a new draft
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -7,6 +8,3 @@ Feature: Add a new draft
 		And enters "Draft Content" in the "Title" field
 		And clicks the "Save as draft" button
 	Then "Draft Content" is shown as first content in the "DRAFT" section of the "Manage content" page
-
-
-

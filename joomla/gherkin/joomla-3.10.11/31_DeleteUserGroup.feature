@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Deletes a user group
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -14,11 +15,3 @@ Scenario: Deletes a user group
 		And clicks the "Delete" button
 		And confirms the two JavaScript alerts
 	Then "Test Group 000" is not present on the page
-		
-
-
-
-
-
-
-

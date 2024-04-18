@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to change the password of a user with two non matching passwords and fails
 	Given the user is on the home page
 		When the user enters "tuser01" in the "Username" field

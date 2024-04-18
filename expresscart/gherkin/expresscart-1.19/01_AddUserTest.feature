@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a user to the system
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field

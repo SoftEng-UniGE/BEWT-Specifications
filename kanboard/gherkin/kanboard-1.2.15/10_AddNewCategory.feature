@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Adds a new category
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field

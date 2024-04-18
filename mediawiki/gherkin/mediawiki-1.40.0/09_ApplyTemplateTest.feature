@@ -1,3 +1,4 @@
+Feature: Templates
 Scenario: Creates a new page using the source editor
 	Given the user is on the home page
 	When the user clicks the "Log in" link

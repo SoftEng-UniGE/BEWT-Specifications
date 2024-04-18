@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Makes an exercise visible
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -10,4 +11,3 @@ Scenario: Makes an exercise visible
 	Given the previous assertion passed
 		When the user clicks the icon displayed at the column "Visibility" of the second row of the table
 	Then the icon displayed at the column "Visibility" of the second row of the table has "Make invisible" as alt text
-

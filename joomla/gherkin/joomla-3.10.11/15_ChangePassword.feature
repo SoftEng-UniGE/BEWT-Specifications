@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Changes the password of a user
 	Given the user is on the home page
 		When the user enters "tuser01" in the "Username" field
@@ -7,5 +8,3 @@ Scenario: Changes the password of a user
 		And enters "newpassword01" in the "Confirm Password (optional)" field
 		And clicks the "Submit" button
 	Then "Profile saved." is shown on a green box
-
-

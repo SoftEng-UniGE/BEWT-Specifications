@@ -1,3 +1,4 @@
+Feature: Catalog management
 Scenario: Checks that taxes are computed correctly when adding a new product
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

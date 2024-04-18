@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a group
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -13,9 +14,3 @@ Scenario: Adds a group
 		And clicks the "New" button
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Group Title" is shown on the page
-
-
-
-
-
-

@@ -1,3 +1,4 @@
+Feature: Order management
 Scenario: Tries to create an order for an out of stock product and fails
 	Given ther user is on the home page
 	When the user enters "admin@prestashop.com" in the "Email address" field

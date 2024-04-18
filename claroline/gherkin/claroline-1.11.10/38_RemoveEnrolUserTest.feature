@@ -1,3 +1,4 @@
+Feature: Course enrolment
 Scenario: Removes enrolment of a user to a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "user001" in the "Username" field

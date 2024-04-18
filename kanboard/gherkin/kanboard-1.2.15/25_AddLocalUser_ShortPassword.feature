@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a local user with a password below 6 characters and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -13,6 +14,3 @@ Scenario: Tries to add a local user with a password below 6 characters and fails
 		And enters "test" in the "Confirmation" field
 		And clicks the "Save" button
 	Then "The minimum length is 6 characters" is shown below the "Password" field
-
-
-

@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to change a username with an empty string and fails
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link
@@ -6,4 +7,3 @@ Scenario: Tries to change a username with an empty string and fails
 		And clears the "Username" field
 		And clicks the "Update User" button
 	Then "The username is invalid. Usernames may only contain Latin letters, numbers, spaces, hyphens, dots, plus signs and underscores." is shown in red
-

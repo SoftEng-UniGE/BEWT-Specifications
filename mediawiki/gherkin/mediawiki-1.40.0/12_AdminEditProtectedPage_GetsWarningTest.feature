@@ -1,3 +1,4 @@
+Feature: Page management
 Scenario: Checks that the admin gets a warning message when editing a protected page
 	Given the user is on the home page
 	When the user clicks the "Log in" link

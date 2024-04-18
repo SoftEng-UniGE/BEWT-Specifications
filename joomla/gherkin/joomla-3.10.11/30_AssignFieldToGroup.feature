@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Assigns a group to a field
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -14,9 +15,3 @@ Scenario: Assigns a group to a field
 		And selects "Test Group 000" from the "Field Group" dropdown select
 		And clicks the "Save & Close" button
 	Then "Test Group 000" is shown in the "Field Group" column of the table
-
-
-
-
-
-

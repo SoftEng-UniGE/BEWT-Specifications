@@ -1,3 +1,4 @@
+Feature: User statistics
 Scenario: Views the statistics for a user in a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "user001" in the "Username" field
@@ -8,4 +9,3 @@ Scenario: Views the statistics for a user in a course
 		And selects "Course001" from the "Choose a course" select
 	Then "Exercise001" is shown on the first row of the "Exercises" column of the "Exercises" table
 	And "9" is shown on the first row of the "Best score" column of the "Exercises" table
-

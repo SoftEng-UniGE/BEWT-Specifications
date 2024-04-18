@@ -1,3 +1,4 @@
+Feature: Login
 Scenario: Log in as user "user001"
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "user001" in the "Username" field

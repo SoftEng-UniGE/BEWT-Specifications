@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Links two subprojects to another project
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link
@@ -13,4 +14,3 @@ Scenario: Links two subprojects to another project
 		And clicks the "Add as Subproject" button
 		And clicks "Proceed"
 	Then "testSubProject2" is shown in the second row of the "Subprojects" table
-

@@ -1,3 +1,4 @@
+Feature: Course enrolment
 Scenario: The user enrols to a password protected course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "user001" in the "Username" field
@@ -11,4 +12,3 @@ Scenario: The user enrols to a password protected course
 		And enters "password" in the "Enrolment key" text field
 		And clicks the "Ok" button
 	Then "You've been enrolled on the course" is shown on a green box
-

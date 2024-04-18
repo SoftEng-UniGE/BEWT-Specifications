@@ -1,3 +1,4 @@
+Feature: Task management
 Scenario: Closes a task
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -8,4 +9,3 @@ Scenario: Closes a task
 		And clicks the "Close this task" link
 		And clicks "Yes" in the confirmation window
 	Then the task has status "Closed"
-

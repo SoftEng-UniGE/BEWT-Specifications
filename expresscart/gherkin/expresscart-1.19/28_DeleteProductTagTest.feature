@@ -1,3 +1,4 @@
+Feature: Catalog management
 Scenario: Deletes a product tag
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field

@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a local user with non matching passwords and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -11,5 +12,3 @@ Scenario: Tries to add a local user with non matching passwords and fails
 		And enters "user2@gmail.com" in the "Email" field
 		And clicks the "Save" button
 	Then "The password is required" is shown below the "Password" field
-
-

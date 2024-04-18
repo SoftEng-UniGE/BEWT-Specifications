@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a user with non matching passwords and fails
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field

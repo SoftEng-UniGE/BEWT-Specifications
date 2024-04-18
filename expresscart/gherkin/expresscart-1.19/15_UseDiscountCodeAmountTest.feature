@@ -1,3 +1,4 @@
+Feature: Discount codes
 Scenario: Buys a product using a discound code (by amount)
 	Given the user is on the home page 
 		#the icon is between the language selector and the cart
@@ -16,5 +17,3 @@ Scenario: Buys a product using a discound code (by amount)
 		And clicks the "Apply" button
 		And waits for at least 6 seconds
 	Then "Discount: £3.00" is displayed on the page
-		
-

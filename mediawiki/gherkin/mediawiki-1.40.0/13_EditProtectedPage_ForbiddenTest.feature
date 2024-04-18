@@ -1,3 +1,4 @@
+Feature: Page management
 Scenario: A non-admin user tries to edit a protected page and fails
 	Given the user is on the home page
 	When the user clicks the "Log in" link

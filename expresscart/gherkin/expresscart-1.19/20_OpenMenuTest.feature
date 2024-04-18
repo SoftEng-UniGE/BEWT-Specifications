@@ -1,3 +1,4 @@
+Feature: Site menus
 Scenario: Searches a product using its tag
 	Given the user is on the home page 
 		When the user clicks the "Test Menu" link

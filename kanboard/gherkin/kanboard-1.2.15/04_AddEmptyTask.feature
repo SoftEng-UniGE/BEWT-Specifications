@@ -1,3 +1,4 @@
+Feature: Task management
 Scenario: Tries to  add a task without title and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field

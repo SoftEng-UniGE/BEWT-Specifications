@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Changes the email associated to a user's profile
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -12,4 +13,3 @@ Scenario: Changes the email associated to a user's profile
 		And enters "admin@kanboard.com" in the "Email" field
 		And clicks the "Save" button
 	Then "admin@kanboard.com" is shown to the right of "Email: "
-

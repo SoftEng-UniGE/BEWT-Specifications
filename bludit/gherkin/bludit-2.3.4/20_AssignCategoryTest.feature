@@ -1,4 +1,5 @@
-Feature: Assigns a category to a content
+Feature: Content management
+Scenario: Assigns a category to a content
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -12,8 +13,3 @@ Feature: Assigns a category to a content
 		And clicks the "Create your own content" link
 		And clicks the "GENERAL" button on the right of the screen
 	Then "Category001" is shown as selected value of the "CATEGORY" dropdown select
-		
-		
-
-
-

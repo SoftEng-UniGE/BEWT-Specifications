@@ -1,3 +1,4 @@
+Feature: Page editor
 Scenario: Closes the pop-up that is shown the first time the editor is opened. Required for a successful execution of other tests
 	Given the user is on the home page
 	When the user clicks the "Log in" link

@@ -1,3 +1,4 @@
+Feature: Course search
 Scenario: Searches a course using the advanced search function
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -9,4 +10,3 @@ Scenario: Searches a course using the advanced search function
 		And clicks the "Allowed" radio button
 		And clicks the "Search course" button
 	Then "Course001" is shown in the "Course title" column of the first row of the table
-

@@ -1,3 +1,4 @@
+Feature: Discount codes
 Scenario: Adds a discount code (by amount) to the system
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field
@@ -13,4 +14,3 @@ Scenario: Adds a discount code (by amount) to the system
 		And clicks the "Add disocunt" button
 		And clicks the "Discount codes" button
 	Then "Code: discount000" is shown in the last row of the table
-

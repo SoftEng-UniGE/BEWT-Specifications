@@ -1,3 +1,4 @@
+Feature: Catalog management
 Scenario: Adds a product to the system
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field
@@ -10,4 +11,3 @@ Scenario: Adds a product to the system
 		And clicks the "Add product" button
 		And clicks the "Products" link
 	Then "NewProduct" is shown in the first row of the table
-

@@ -1,3 +1,4 @@
+Feature: Course enrolment
 Scenario: Tries to enrol to a closed registration course and fails
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "user001" in the "Username" field
@@ -9,4 +10,3 @@ Scenario: Tries to enrol to a closed registration course and fails
 		#the button is an icon to the right of the "003 - Course003" link
 		And clicks the enrolment button
 	Then "This course currently does not allow new enrolments (registration: close)" is shown on a red box
-

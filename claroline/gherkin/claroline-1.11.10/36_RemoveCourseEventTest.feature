@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Removes an event from a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -8,4 +9,3 @@ Scenario: Removes an event from a course
 		And clicks the red cross below "Exam 001"
 		And confirms the JavaScript alert
 	Then "Event deleted from the agenda" is shown in a green box
-

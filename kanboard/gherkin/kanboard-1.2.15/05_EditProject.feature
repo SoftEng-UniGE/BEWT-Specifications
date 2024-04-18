@@ -1,3 +1,4 @@
+Feature: Project management
 Scenario: Changes the description of a project
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field

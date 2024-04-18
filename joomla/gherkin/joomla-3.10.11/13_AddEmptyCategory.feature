@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Adds a category
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -12,4 +13,3 @@ Scenario: Adds a category
 		And clicks on the "New" button
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Title" is shown on the page
-

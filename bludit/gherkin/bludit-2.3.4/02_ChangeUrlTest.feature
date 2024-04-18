@@ -1,4 +1,5 @@
-Feature: Change the URL of a content
+Feature: Content management
+Scenario: Change the URL of a content
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -11,6 +12,3 @@ Feature: Change the URL of a content
 		And clicks the "Save" button
 		And clicks the "Content" link
 	Then "/new-post-url" is shown as URL of the "Test Content" content
-
-
-

@@ -1,4 +1,5 @@
-Feature: Deletes a user from the system
+Feature: User management
+Scenario: Deletes a user from the system
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
 		And enters "password" in the Password field
@@ -8,6 +9,3 @@ Feature: Deletes a user from the system
 		And clicks the "Delete the user and all his pages" link
 		And confirms the JavaScript alert
 	Then the "Users" page does not contain the user "usertest"
-
-
-

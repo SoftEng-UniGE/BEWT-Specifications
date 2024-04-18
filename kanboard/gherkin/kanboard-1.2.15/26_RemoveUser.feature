@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to add a local user with a password below 6 characters and fails
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -9,6 +10,3 @@ Scenario: Tries to add a local user with a password below 6 characters and fails
 		And clicks the "Remove" link
 		And clicks "Yes" in the confirmation window
 	Then "remote1" is not shown on the page
-
-
-

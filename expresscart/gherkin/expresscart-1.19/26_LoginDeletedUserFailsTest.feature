@@ -1,3 +1,4 @@
+Feature: Login
 Scenario: Tries to login as a deleted user and fails
 	Given the user is on the administrative home page (/admin)
 		When the user enters "test000@test.com" in the "email address" field

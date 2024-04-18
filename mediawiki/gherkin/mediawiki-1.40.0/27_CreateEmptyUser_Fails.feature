@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to create an empty user and fails
 	Given the user is on the home page
 	When the user clicks the "Log in" link

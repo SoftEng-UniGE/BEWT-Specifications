@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Adds a field group
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -14,9 +15,3 @@ Scenario: Adds a field group
 		And enters "Test Group 000" in the "Title" field
 		And clicks the "Save & Close" button
 	Then "Test Group 000" is shown in the table
-
-
-
-
-
-

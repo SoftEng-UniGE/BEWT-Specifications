@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Tries to change a user's password with a too common one and fails
 	Given the user is on the home page
 	When the user clicks the "Log in" link

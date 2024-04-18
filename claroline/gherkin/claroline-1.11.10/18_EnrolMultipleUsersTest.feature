@@ -1,3 +1,4 @@
+Feature: Course enrolment
 Scenario: Enrols a user to a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "testuser1" in the "Username" field
@@ -35,8 +36,6 @@ Scenario: Enrols a user to a course
 		And clicks the "Enter" button
 		And clicks the "001 - Course001" link
 		And clicks the button to the left of the "Users" link
-
 	Then the page contains "testuser1"
 	And the page contains "testuser2"
 	And the page contains "testuser3"
-

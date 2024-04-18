@@ -1,3 +1,4 @@
+Feature: Catalog management
 Scenario: Adds a tag to a product
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field

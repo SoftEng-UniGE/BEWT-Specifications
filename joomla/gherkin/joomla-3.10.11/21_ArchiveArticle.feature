@@ -1,3 +1,4 @@
+Feature: Content management
 Scenario: Archives an article
 	Given the user is on the home page
 		When the user enters "administrator" in the "Username" field
@@ -12,8 +13,3 @@ Scenario: Archives an article
 		And clicks the checkbox to the left of "Your Modules" article
 		And clicks the "Archive" article
 	Then "1 article archived." is shown on a green box
-
-
-
-
-

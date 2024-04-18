@@ -1,3 +1,4 @@
+Feature: Page creation
 Scenario: Creates a new user page
 	Given the user is on the home page
 	When the user clicks the "Log in" link

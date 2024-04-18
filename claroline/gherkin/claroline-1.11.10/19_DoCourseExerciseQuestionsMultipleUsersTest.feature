@@ -1,3 +1,4 @@
+Feature: Course exercises
 Scenario: Multiple users do an exercise
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "testuser1" in the "Username" field

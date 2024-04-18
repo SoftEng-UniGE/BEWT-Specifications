@@ -1,3 +1,4 @@
+Feature: Login (precondition of all other tests)
 Scenario: Logs in as the administrator
 	Given the user is on the login page
 	When the user enters "administrator" in the "Username" field

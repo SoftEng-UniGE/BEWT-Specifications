@@ -1,3 +1,4 @@
+Feature: Page redirection
 Scenario: Creates a new redirect
 	Given the user is on the home page
 	When the user clicks the "Log in" link

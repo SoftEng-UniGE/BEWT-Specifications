@@ -1,3 +1,4 @@
+Feature: Discount codes
 Scenario: Deletes a discount code (by amount)
 	Given the user is on the administrative home page (/admin)
 		When the user enters "owner@test.com" in the "email address" field
@@ -8,4 +9,3 @@ Scenario: Deletes a discount code (by amount)
 		And confirms the JavaScript alert
 		And clicks the "Discount codes" link
 	Then "discount000" is not shown on the page
-

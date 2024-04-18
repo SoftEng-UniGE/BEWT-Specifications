@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a remote user
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -15,6 +16,3 @@ Scenario: Adds a remote user
 	And "Full Name: remote1" is shown in the summary
 	And "Email: remote@gmail.com" is shown in the summary
 	And "Account type: Remote" is shown in the "Security" section
-
-
-

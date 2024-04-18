@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Adds a local user
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
@@ -15,6 +16,3 @@ Scenario: Adds a local user
 	Then "Login: TestUser" is shown in the summary
 	And "Full Name: User1" is shown in the summary
 	And "Email: user@gmail.com" is shown in the summary
-
-
-

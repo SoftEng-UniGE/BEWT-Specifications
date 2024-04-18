@@ -1,3 +1,4 @@
+Feature: Course management
 Scenario: Removes questions to an exercise
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
@@ -15,4 +16,3 @@ Scenario: Removes questions to an exercise
 	Then "Question 1" is not shown on the page
 	And "Question 2" is not shown on the page
 	And "Question 3" is not shown on the page
-

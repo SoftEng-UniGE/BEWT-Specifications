@@ -1,3 +1,4 @@
+Feature: User management
 Scenario: Changes a user's real name
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "Manage" link
@@ -8,4 +9,3 @@ Scenario: Changes a user's real name
 		And clicks the "Update User" button
 		And clicks "Proceed"
 	Then "username002" is shown as value of the "Real Name" field
-
