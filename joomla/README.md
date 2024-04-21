@@ -4,7 +4,9 @@ E2E Web Testing benchmark
 Gherkin specifications for Joomla
 ----------------------
 
-This directory contains Gherkin speficiations and automated installer for Joomla 3.10.11.
+[Joomla](https://www.joomla.org/) an open-source Content Management System (CMS).
+
+This directory contains Gherkin specifications and automated installer for [Joomla](https://www.joomla.org/) 3.10.11.
 
 # Deployment instructions
 The Docker containers for Joomla 3.10.11 can be created using the `docker-compose.yml` file contained in this directory. Just move into the directory using a terminal and type:
@@ -12,7 +14,10 @@ The Docker containers for Joomla 3.10.11 can be created using the `docker-compos
 ```bash
 docker compose up
 ```
-The web application will be exposed on `localhost:8080`. After the containers are deployed, an installation wizard must be followed. Please refer to the further section **Installation instructions**
+
+The web application will be exposed on http://localhost:8080
+
+After the containers are deployed, an installation wizard must be followed. Please refer to the further section **Installation instructions**
 
 # Installation instructions
 
