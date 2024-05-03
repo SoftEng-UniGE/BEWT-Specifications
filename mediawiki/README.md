@@ -18,7 +18,11 @@ The web application will be exposed on `localhost:8080`. An installation wizard 
 
 # Installation instructions
 
-The installation wizard can be executed automatically by running `utils.Installer` (located in the Maven project mediawiki-installer-1.40.0) as a JUnit test. If, for any reason, the automatic installation fails, these are the parameters that you should set in the installation wizard:
+The installation wizard can be executed automatically by running `InstallerTest.install` (located in the Maven project `mediawiki-installer-1.40.0`) as a JUnit test. You can run it with Maven using the command 
+```bash
+mvn test -Dtest=InstallerTest#install
+``` 
+in the directory `mediawiki-installer-1.40.0`. If, for any reason, the automatic installation fails, these are the parameters that you should set in the installation wizard:
 
 * Languages: **English**
 * Database host:  **database**

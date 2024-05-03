@@ -16,7 +16,12 @@ The web application will be exposed on `localhost:8080`. After the containers ar
 
 # Installation instructions
 
-The installation wizard can be executed automatically by running `utils.Installer` (located in the Maven project joomla-installer-3.10.11) as a JUnit test. If, for any reason, the automatic installation fails, these are the parameters that you should set in the installation wizard:
+The installation wizard can be executed automatically by running `InstallerTest.install` (located in the Maven project `joomla-installer-3.10.11`) as a JUnit test. You can run it with Maven using the command 
+```bash
+mvn test -Dtest=InstallerTest#install
+``` 
+in the directory `joomla-installer-3.10.11` 
+If, for any reason, the automatic installation fails, these are the parameters that you should set in the installation wizard:
 
 *	Language: English (United States)
 *	Site name: TestRigor joomla test

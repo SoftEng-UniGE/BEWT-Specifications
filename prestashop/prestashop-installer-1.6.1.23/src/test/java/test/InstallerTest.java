@@ -1,4 +1,4 @@
-package utils;
+package test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Installer {
+public class InstallerTest {
 	
 	protected WebDriver driver;
 	
