@@ -29,7 +29,7 @@ in the directory `mediawiki-installer-1.40.0`. If, for any reason, the automatic
 * Database username: **wikiuser**
 * Database password: **example**
 * Wiki name: **E2E Web Testing wiki**
-* Your username: **asmin**
+* Your username: **admin**
 * Password: **Password001**
 * E-mail address: **admin@wiki.example**
 * User rights profile: **Authorized editors only**
