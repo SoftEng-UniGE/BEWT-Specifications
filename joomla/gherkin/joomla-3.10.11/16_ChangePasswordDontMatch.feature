@@ -1,7 +1,8 @@
 Feature: User management
 Scenario: Tries to change the password of a user with two non matching passwords and fails
 	Given the user is on the home page
-		When the user enters "tuser01" in the "Username" field
+		When the user clicks the "Author Login" link
+		And enters "tuser01" in the "Username" field
 		And enters "newpassword01" in the "Password" field
 		And clicks the "Sign in" button
 		And enters "asdasdasd22" in the "Password (optional)" field
