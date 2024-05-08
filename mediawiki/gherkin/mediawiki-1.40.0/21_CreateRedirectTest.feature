@@ -13,3 +13,6 @@ Scenario: Creates a new redirect
 		And enters "#REDIRECT [[Software testing]]" in the editor
 		And clicks the "Save page" button
 	Then a redirect page to "Software testing" is shown
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

@@ -14,3 +14,7 @@ Scenario: Adds a new employee
 		And selects "Salesman" from the "Permission profile" dropdown select
 		And clicks on the "Save" button
 	Then "Successful creation" is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

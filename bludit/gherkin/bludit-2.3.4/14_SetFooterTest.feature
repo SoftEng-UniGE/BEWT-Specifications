@@ -8,3 +8,6 @@ Scenario: Sets a footer for the site
 		And enters "E2E Web Testing benchmark" in the "Footer" field
 		And clicks the "Save" button
 	Then "E2E Web Testing benchmark" is shown as value of the "Footer" field
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

@@ -9,3 +9,6 @@ Scenario: Deletes a user from the system
 		And clicks the "Delete the user and all his pages" link
 		And confirms the JavaScript alert
 	Then the "Users" page does not contain the user "usertest"
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

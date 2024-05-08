@@ -10,3 +10,7 @@ Scenario: Adds a new product
 		And enters "Blue Jacket3" in the "Name" field
 		And clicks the "Save" button
 	Then "Successful creation" is shown on a green box
+
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

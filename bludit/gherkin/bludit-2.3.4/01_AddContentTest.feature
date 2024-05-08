@@ -8,3 +8,6 @@ Scenario: Add a new content
 		And enters "Test Content" in the "Title" field
 		And clicks the "Save" button
 	Then "Test Content" is shown as first content in the "Published" section of the "Manage content" page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

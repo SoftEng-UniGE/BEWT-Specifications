@@ -12,3 +12,7 @@ Scenario: Tries to create an order for an out of stock product and fails
 		And enters "4" in the "Quantity" field
 		And clicks on the "Add to cart" button
 	Then "There is not enough product in stock." is shown on a red box
+
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

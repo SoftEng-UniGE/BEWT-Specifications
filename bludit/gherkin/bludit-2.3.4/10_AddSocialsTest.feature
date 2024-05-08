@@ -13,3 +13,6 @@ Scenario: Adds a user's links to social networks
 		And clicks the first username in the "Users" page (admin)
 	Then "https://www.facebook.com/some_fake_user_name_52432562135863" is shown as value of the "Facebook" field
 	And "https://instagram.com/some_fake_user_name_52432562135863" is shown as value of the "Instagram" field
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

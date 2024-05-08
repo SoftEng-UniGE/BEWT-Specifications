@@ -14,3 +14,6 @@ Scenario: The last edit made to a page is reverted
 	Given the previous assertion passed
 	When the user clicks on the "Selenium WebDriver" link
 	Then the old version of the page is displayed
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

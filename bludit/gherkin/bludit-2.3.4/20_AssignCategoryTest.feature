@@ -13,3 +13,6 @@ Scenario: Assigns a category to a content
 		And clicks the "Create your own content" link
 		And clicks the "GENERAL" button on the right of the screen
 	Then "Category001" is shown as selected value of the "CATEGORY" dropdown select
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

@@ -9,3 +9,6 @@ Scenario: Views the statistics for a user in a course
 		And selects "Course001" from the "Choose a course" select
 	Then "Exercise001" is shown on the first row of the "Exercises" column of the "Exercises" table
 	And "9" is shown on the first row of the "Best score" column of the "Exercises" table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

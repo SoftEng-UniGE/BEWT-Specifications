@@ -11,3 +11,6 @@ Scenario: Tries to create a blank page and gets a warning
 		And closes the notification
 		And clicks the "Save" button
 	Then a warning is displayed above the editor
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

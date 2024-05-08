@@ -12,3 +12,6 @@ Scenario: Tries to change a user's password with a too short one and fails
 		And enters "vznb" in the "Retype new password" field
 		And clicks the "Change credentials" button
 	Then an error message saying that the password must have at least 10 characters is displayed
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

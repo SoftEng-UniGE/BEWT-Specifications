@@ -13,3 +13,6 @@ Scenario: Change the parent of a content
 		And clicks the "Test Content" link
 		And clicks the "ADVANCED" button on the right of the screen
 	Then "Create your own content" is selected in the "PARENT" dropdown select
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

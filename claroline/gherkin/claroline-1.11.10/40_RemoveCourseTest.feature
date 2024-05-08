@@ -9,3 +9,6 @@ Scenario: Removes a course from the system
 		And clicks the icon in the "Delete" column of the first row of the table
 		And accepts the JavaScript alert
 	Then "The course has been successfully deleted" is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

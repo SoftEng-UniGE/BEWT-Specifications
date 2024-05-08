@@ -7,3 +7,6 @@ Scenario: Shows all the articles associated to a category
 		And clicks the "Categories" link
 		And clicks the "/category/category001" link
 	Then "Create your own content" is shown at the center of the screen
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

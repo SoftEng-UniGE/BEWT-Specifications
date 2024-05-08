@@ -11,3 +11,6 @@ Scenario: Deletes a page
 		And clicks the "Delete" link
 		And clicks the "Delete page" button
 	Then a message confirms that the page has been deleted
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

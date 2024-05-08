@@ -49,3 +49,6 @@ Scenario: Multiple users do an exercise
 	And the column "Worst score" of the fourth row of the first table contains "0"
 	And the column "Student" of the fifth row of the first table contains "testuser3 testuser3"
 	And the column "Worst score" of the fifth row of the first table contains "6"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

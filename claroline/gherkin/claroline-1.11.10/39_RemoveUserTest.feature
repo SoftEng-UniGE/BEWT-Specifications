@@ -10,3 +10,6 @@ Scenario: Removes a user from the system
 		And accepts the JavaScript alert
 	Then the page does not contain "Name001"
 	And the page does not contain "Firstname001"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

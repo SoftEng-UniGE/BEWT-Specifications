@@ -10,3 +10,6 @@ Scenario: Adds an exercise to a course
 		And enters "Exercise 001" in the "Title" field
 		And clicks the "Ok" button
 	Then "Exercise added" is shown in a green box
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

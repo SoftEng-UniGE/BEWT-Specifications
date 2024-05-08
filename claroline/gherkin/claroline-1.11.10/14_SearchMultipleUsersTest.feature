@@ -11,3 +11,6 @@ Scenario: Searches multiple users in the system
 	Then "testuser1" is shown in the "Name" column of the first row of the table
 	And "testuser2" is shown in the "Name" column of the second row of the table
 	And "testuser3" is shown in the "Name" column of the third row of the table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

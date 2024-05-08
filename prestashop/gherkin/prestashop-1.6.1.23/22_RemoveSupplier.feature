@@ -10,3 +10,7 @@ Scenario: Deletes a supplier
 		And clicks the "Delete" link
 		And accepts the JavaScript alert
 	Then "Successful deletion" is shown on a green box
+
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

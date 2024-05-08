@@ -8,3 +8,6 @@ Scenario: Adds a link to a social network for the whole site
 		And enters "https://instagram.com/bludit595159516" in the "Instagram" field
 		And clicks the "Save" button
 	Then "https://instagram.com/bludit595159516" is shown as value of the "Instagram" field
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

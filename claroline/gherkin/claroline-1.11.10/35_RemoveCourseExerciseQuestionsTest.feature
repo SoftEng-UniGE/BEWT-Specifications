@@ -16,3 +16,6 @@ Scenario: Removes questions to an exercise
 	Then "Question 1" is not shown on the page
 	And "Question 2" is not shown on the page
 	And "Question 3" is not shown on the page
+
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

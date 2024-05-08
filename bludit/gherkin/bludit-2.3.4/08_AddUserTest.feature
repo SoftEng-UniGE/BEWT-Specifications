@@ -13,3 +13,6 @@ Scenario: Adds a user to the system
 		And selects "Administrator" in the "Role" dropdown select
 		And clicks the "Save" button
 	Then "usertest" appears as second user in the "Users" page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

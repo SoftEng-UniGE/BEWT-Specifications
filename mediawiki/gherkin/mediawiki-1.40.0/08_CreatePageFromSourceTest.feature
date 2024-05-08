@@ -13,3 +13,6 @@ Scenario: Creates a new page using the source editor
 		And enters the text of the page in the editor
 		And clicks the "Save page" button
 	Then the page is displayed with "Selenium WebDriver" as title and the previously inserted text as body
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

@@ -9,3 +9,6 @@ Scenario: Adds a new category
 		And enters "Category001" into the "Name" field
 		And clicks the "Save" button
 	Then "Category001" is shown as first category in the "Categories" page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

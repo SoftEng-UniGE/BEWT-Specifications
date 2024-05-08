@@ -9,3 +9,6 @@ Scenario: Checks that the admin gets a warning message when editing a protected 
 		And presses Enter
 		And clicks "Edit"
 	Then a warning message is displayed
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

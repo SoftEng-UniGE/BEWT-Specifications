@@ -13,3 +13,6 @@ Scenario: Edits a page
 		And enters "Page expanded" in the sumamry
 		And clicks the "Save page" button
 	Then the page is displayed with "Software testing" as title and the full text as body
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

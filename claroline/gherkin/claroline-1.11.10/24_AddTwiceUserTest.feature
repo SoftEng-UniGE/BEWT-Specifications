@@ -14,3 +14,6 @@ Scenario: Tries to add a user with the same data of an already existing user and
 		And clicks the "Follow courses (student)" radio button
 		And clicks the "Ok" button
 	Then "This username is already taken" empty is shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

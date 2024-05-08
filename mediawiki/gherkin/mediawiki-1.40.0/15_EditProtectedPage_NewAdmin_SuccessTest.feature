@@ -13,3 +13,6 @@ Scenario: A newly promoted admin successfully edits a protected page
 		And enters "Page expanded" in the sumamry
 		And clicks the "Save page" button
 	Then the page is displayed with "Selenium WebDriver" as title and the full text as body
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

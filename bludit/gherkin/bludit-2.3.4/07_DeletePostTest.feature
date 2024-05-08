@@ -9,3 +9,6 @@ Scenario: Deletes content
 		And clicks the "Delete" button
 		And confirms the JavaScript alert
 	Then "Follow Bludit" is not present in the "Manage content" page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

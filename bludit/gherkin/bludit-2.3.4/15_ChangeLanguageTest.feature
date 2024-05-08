@@ -10,3 +10,6 @@ Scenario: Change the language of the site from "English" to "Italiano (Italia)",
 	Then "Italiano (Italia)" is shown as selected value in the "Language" dropdown select
 		When the user selects "English" in the "Language" dropdown select
 	Then "English" is shown as selected value in the "Language" dropdown select
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

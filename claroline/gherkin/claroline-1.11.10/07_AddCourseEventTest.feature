@@ -14,3 +14,6 @@ Scenario: Adds an event to a course
 		And enters "Genoa" in the "Location" field
 		And clicks the "Ok" button
 	Then "Event added to the agenda" is shown in a green box
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

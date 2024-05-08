@@ -11,3 +11,6 @@ Scenario: Changes a user's password
 		And enters "newpassword" in the "Confirm password" field
 		And clicks the "Save" button
 	Then an alert saying "The changes has been saved" is shown for about 2 seconds in the top right corner of the page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

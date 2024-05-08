@@ -10,3 +10,7 @@ Scenario: Checks the iso code for a language
 		And enters "Fa" in the "ISO code" field
 		And clicks on the "Save" button
 	Then a message about a language pack available for "Persian" is shown at the bottom of the page
+
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

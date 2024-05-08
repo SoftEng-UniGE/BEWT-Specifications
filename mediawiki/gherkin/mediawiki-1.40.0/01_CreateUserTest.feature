@@ -13,3 +13,6 @@ Scenario: Creates a new user
 		And enters "Real Name 001" in the "Real Name" field
 		And clicks the "Create" button
 	Then "The user account for User001 (talk) has been created." is displayed
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

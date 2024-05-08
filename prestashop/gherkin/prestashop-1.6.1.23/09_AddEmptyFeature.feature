@@ -9,3 +9,7 @@ Scenario: Tries to add a feature without name and fails
 		And clicks the "Add feature" button
 		And clicks the "Save" button
 	Then an error message is shown on a red box
+
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

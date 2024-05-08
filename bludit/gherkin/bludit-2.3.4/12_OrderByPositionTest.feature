@@ -8,3 +8,6 @@ Scenario: Changes the visualization order of posts by position
 		And selects "Position" in the "Order content by" dropdown select
 		And clicks on the "Save" button
 	Then "Position" appears as selected value in the "Order content by" dropdown select
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

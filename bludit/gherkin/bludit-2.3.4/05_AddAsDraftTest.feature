@@ -8,3 +8,6 @@ Scenario: Add a new draft
 		And enters "Draft Content" in the "Title" field
 		And clicks the "Save as draft" button
 	Then "Draft Content" is shown as first content in the "DRAFT" section of the "Manage content" page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

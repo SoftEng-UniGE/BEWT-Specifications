@@ -15,3 +15,7 @@ Scenario: Adds a password protected course
 		And clicks the "Access allowed to anybody (even without login)" radio button
 		And clicks the "Ok" button
 	Then "You have just created the course website : 002" is shown in a green box
+		
+	Given the previous assertion passed
+	Then the user clicks the "Continue" link
+	And clicks the "Logout" link

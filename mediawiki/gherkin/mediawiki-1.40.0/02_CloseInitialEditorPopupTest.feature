@@ -12,3 +12,4 @@ Scenario: Closes the pop-up that is shown the first time the editor is opened. R
 
 	Given the previous assertion passed
 	Then the user clicks the "Start editing" button
+	And clicks the "Log out" link

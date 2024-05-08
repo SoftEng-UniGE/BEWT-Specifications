@@ -12,3 +12,6 @@ Scenario: Creates a new page using the source editor
 		And clicks the "Save changes" button
 	Then the page is displayed with "Selenium WebDriver"
 	And "Developer: Selenium Latest version: 3.141.59" is shown at the beginning of the body
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

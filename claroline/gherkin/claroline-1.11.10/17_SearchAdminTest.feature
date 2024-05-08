@@ -10,3 +10,6 @@ Scenario: Searches an admin in the system
 		And selects "Platform administrator" in the "Action" dropdown select
 		And clicks the "Search user" button
 	Then "testuser3" is shown in the "Name" column of the first row of the table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

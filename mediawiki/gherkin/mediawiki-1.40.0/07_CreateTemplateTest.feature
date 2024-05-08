@@ -13,3 +13,6 @@ Scenario: Creates a new template
 		And enters "Page created" in the sumamry
 		And clicks the "Save page" button
 	Then the page is displayed with "Template:Software" as title and the previously inserted text as body
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

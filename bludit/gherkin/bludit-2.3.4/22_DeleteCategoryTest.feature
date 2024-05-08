@@ -8,3 +8,6 @@ Scenario: Deletes a category
 		And clicks the "Category001" link
 		And clicks on the "Delete" button
 	Then "Category001" is not shown in the "Categories" page
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

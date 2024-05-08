@@ -11,3 +11,6 @@ Scenario: Makes an exercise visible
 	Given the previous assertion passed
 		When the user clicks the icon displayed at the column "Visibility" of the second row of the table
 	Then the icon displayed at the column "Visibility" of the second row of the table has "Make invisible" as alt text
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

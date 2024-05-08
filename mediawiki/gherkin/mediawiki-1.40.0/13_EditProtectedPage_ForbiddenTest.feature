@@ -9,3 +9,6 @@ Scenario: A non-admin user tries to edit a protected page and fails
 		And presses Enter
 		And clicks "Edit"
 	Then an error message is displayed and the editor is not available
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

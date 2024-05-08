@@ -14,3 +14,6 @@ Scenario: Promotes a standard user to administrator
 		And clicks the "Save user groups" button
 	Then the "administrator" checkbox is checked 
 	And an entry about the promotion is shown in the "User rights log" section
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

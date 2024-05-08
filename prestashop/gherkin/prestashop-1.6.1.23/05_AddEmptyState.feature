@@ -9,3 +9,7 @@ Scenario: Tries to add an empty state and fails
 		And clicks the "Add new state" button
 		And clicks the "Save" button
 	Then "2 errors The iso_code field is required. The name field is required." is shown on a red box
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

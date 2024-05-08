@@ -8,3 +8,6 @@ Scenario: A blocked user tries to edit a page and fails
 		And clicks the "User001" link
 		And clicks the "Edit" link
 	Then an error is displayed and the editor is disabled
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

@@ -14,3 +14,6 @@ Scenario: Change the position of a content
 		And clicks the "Test Content" link
 		And clicks the "ADVANCED" button on the right of the screen
 	Then "30" is shown as value of the "POSITION" field
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

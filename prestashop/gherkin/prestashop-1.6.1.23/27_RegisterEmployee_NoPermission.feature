@@ -13,3 +13,7 @@ Scenario: Tries to add a new employee without permission profile and fails
 		And enters "abcd!@#$23" into the "Password" field
 		And clicks on the "Save" button
 	Then an error message is shown on a red box
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

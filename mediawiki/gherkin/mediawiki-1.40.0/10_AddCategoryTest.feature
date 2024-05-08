@@ -18,3 +18,6 @@ Scenario: Adds a new category
 		And clicks the "Save page" button
 	Then the page has title "Selenium WebDriver"
 	And "Category: Browser automation tools" is displayed at the end of the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

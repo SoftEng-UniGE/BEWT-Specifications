@@ -16,3 +16,6 @@ Scenario: Remove multiple users from the system
 	And the page does not contain "testuser1"
 	And the page does not contain "testuser2"
 	And the page does not contain "testuser3"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

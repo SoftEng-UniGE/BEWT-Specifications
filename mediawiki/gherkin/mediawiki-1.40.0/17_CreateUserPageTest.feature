@@ -10,3 +10,6 @@ Scenario: Creates a new user page
 		And enters "This is my user page"
 		And clicks the "Save page" button
 	Then the page is displayed with "User001" as title and the previously inserted text as body
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

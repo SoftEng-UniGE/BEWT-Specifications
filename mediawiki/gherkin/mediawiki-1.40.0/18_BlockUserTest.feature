@@ -13,3 +13,6 @@ Scenario: Blocks a user
 		And selects "indefinite" in the "Expiration" dropdown select
 		And clicks the "Block this user" button
 	Then "User001 has been blocked" is displayed
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

@@ -12,3 +12,6 @@ Scenario: Tries to change a user's password with a too common one and fails
 		And enters "password123" in the "Retype new password" field
 		And clicks the "Change credentials" button
 	Then "Your credentials have been changed." is displayed on a green box
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

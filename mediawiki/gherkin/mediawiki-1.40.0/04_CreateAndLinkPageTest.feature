@@ -23,3 +23,6 @@ Scenario: Creates a new page containing an hyperlink to another page
 	Given the previous assertion passed
 	When the user clicks the "Software testing"
 	Then the page created in the previous test case is displayed
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

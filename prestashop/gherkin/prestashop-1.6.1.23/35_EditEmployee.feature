@@ -11,3 +11,7 @@ Scenario: Edits an employee
 		And enters "Main Admin" in the "Last Name" field
 		And clicks on the "Save" button
 	Then "Successful update" is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

@@ -8,3 +8,6 @@ Scenario: Changes the home page of the site
 		And selects "Create your own content" in the "Homepage" dropdown select
 		And clicks on the "Save" button
 	Then "Create your own content" appears as selected value in the "Homepage" dropdown select
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

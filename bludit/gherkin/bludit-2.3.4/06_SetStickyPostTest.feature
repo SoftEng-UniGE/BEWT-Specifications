@@ -11,3 +11,6 @@ Scenario: Set a content as sticky
 		And clicks the "Save" button
 		And clicks the "Content" link
 	Then "Set up your new site" is shown as first post in the "STICKY" section
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

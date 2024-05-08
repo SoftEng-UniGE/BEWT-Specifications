@@ -14,3 +14,6 @@ Scenario: Protects a page from being edited by non-admin users
 		And clicks "More"
 		And clicks "Change protection"
 	Then "Allow only administrators" is the selected value in the "Edit" dropdown select
+	
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

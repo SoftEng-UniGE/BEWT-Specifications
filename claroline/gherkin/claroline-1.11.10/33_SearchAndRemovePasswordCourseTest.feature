@@ -10,7 +10,11 @@ Scenario: Searches a password protected course using the advanced search functio
 		And clicks the "Allowed with enrolment key" radio button
 		And clicks the "Search course" button
 	Then "Course002" is shown in the "Course title" column of the first row of the table
+
 	Given the previous assertion passed
 		When the user clicks the red cross in the "Delete" column of the table
 		And confirms the JavaScript alert
 	Then "The course has been successfully deleted" is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

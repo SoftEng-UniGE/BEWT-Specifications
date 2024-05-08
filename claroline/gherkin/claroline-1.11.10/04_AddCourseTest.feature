@@ -16,3 +16,7 @@ Scenario: Adds a course
 		And clicks the "Allowed" radio button
 		And clicks the "Ok" button
 	Then "You have just created the course website : 001" is shown in a green box
+	
+	Given the previous assertion passed
+	Then the user clicks the "Continue" link
+	And clicks the "Logout" link

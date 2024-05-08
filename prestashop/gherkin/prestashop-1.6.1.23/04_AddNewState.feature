@@ -13,3 +13,7 @@ Scenario: Adds a new state
 		And selects "Europe" in the "Zone" dropdown select
 		And clicks the "Save" button
 	Then "Successfull update" is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

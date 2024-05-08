@@ -12,3 +12,7 @@ Scenario: Changes a manufacturer's name
 		And enters "Smith Co" in the "Name" field
 		And clicks the "Save" button
 	Then "Successful update" is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon in the top right corner of the page
+	And clicks the "Sign out" link

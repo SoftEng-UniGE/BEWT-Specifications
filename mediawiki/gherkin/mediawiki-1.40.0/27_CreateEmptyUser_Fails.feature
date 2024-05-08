@@ -9,3 +9,6 @@ Scenario: Tries to create an empty user and fails
 		And clicks the "Create account" link
 		And clicks the "Create account" button
 	Then a HTML5 alert is displayed on the "Username" field
+		
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link

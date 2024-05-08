@@ -12,3 +12,6 @@ Scenario: Change the URL of a content
 		And clicks the "Save" button
 		And clicks the "Content" link
 	Then "/new-post-url" is shown as URL of the "Test Content" content
+
+	Given the previous assertion passed
+	Then the user clicks the "Log out" link
