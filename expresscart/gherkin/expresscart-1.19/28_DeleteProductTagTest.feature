@@ -9,3 +9,6 @@ Scenario: Deletes a product tag
 		And clicks the "x" to the righg of "tag000"
 		And clicks the "Save product" button
 	Then "tag000" is not shown in the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

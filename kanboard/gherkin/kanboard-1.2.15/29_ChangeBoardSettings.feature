@@ -12,3 +12,7 @@ Scenario: Changes the refresh interval of the application
 		And clicks the "Application settings" link
 		And clicks the "Board settings" link
 	Then "85" is the value of the "Refresh interval for public board" field
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

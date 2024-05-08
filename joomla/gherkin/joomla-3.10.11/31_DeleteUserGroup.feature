@@ -16,3 +16,10 @@ Scenario: Deletes a user group
 		And clicks the "Delete" button
 		And confirms the two JavaScript alerts
 	Then "Test Group 000" is not present on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

@@ -7,3 +7,6 @@ Scenario: Changes the status of a project
 		And selects "Stable" in the "Status" dropdown select
 		And clicks the "Update Project" button
 	Then "stable" is shown in the "Status" column of the table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

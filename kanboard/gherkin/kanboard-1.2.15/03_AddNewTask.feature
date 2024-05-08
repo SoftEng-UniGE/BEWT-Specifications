@@ -10,3 +10,7 @@ Scenario: Adds a new task to a project
 		And enters "task 3" in the "Title" field
 		And clicks the "Save" button
 	Then "task 3" is shown on a yellow box
+
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

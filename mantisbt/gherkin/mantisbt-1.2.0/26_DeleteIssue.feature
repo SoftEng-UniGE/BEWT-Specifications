@@ -7,3 +7,6 @@ Scenario: Deletes an issue
 		And clicks the "OK" button
 		And clicks the "Delete Issues" button
 	Then the issues table is empty ("Viewing Issues (0 - 0 / 0)" is shown in the header)
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

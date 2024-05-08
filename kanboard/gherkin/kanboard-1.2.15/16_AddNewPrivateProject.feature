@@ -11,3 +11,7 @@ Scenario: Add a new private project
 	And "This project is open" is the first line of the summary
 	And "This project is personal" is the third line of the summary
 	And "Public access disabled" is the fourth line of the summary
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

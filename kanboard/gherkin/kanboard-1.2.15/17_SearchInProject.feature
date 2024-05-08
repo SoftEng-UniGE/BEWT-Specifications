@@ -7,3 +7,7 @@ Scenario: Searches for open tasks in a project
 		And enters "status:open" in the search bar
 		And presses the Enter key
 	Then "task 3" is the only result
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

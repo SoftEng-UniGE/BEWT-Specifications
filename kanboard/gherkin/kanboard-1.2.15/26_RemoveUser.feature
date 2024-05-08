@@ -10,3 +10,7 @@ Scenario: Tries to add a local user with a password below 6 characters and fails
 		And clicks the "Remove" link
 		And clicks "Yes" in the confirmation window
 	Then "remote1" is not shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

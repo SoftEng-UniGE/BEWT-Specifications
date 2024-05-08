@@ -16,3 +16,7 @@ Scenario: Adds a remote user
 	And "Full Name: remote1" is shown in the summary
 	And "Email: remote@gmail.com" is shown in the summary
 	And "Account type: Remote" is shown in the "Security" section
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

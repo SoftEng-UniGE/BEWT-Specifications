@@ -9,3 +9,6 @@ Scenario: Deletes a review
 		And accepts the JavaScript alert
 		And clicks on the "Reviews" link
 	Then "Review000" is not shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

@@ -11,3 +11,8 @@ Scenario: Tries to login to the site administration area with wrong credentials 
 		And enters "wrongpassword" in the "Password" field
 		And clicks the "Log in" button
 	Then "Username and password do not match or you do not have an account yet." is shown in a yellow box
+	
+	Given the previous assertion passed
+	Then the user closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

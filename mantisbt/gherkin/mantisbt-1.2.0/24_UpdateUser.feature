@@ -9,3 +9,6 @@ Scenario: Changes a user's real name
 		And clicks the "Update User" button
 		And clicks "Proceed"
 	Then "username002" is shown as value of the "Real Name" field
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

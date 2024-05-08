@@ -6,3 +6,6 @@ Scenario: Changes the status of an issue to "feedback"
 		And selects "feedback" in the "Status" dropdown select
 		And clicks the "Update Information" button
 	Then "feedback" is shown to the right of "Status"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

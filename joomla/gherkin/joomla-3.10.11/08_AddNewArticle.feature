@@ -11,3 +11,7 @@ Scenario: Adds a new article
 		And clicks the "Save" button
 	Then "Test Article 01" is shown as title of the first article
 	And "This is the body of the first article for testing the platform" is shown as text of the first article
+	
+	Given the previous assertion passed
+	Then the user clicks the "Author Login" link
+	And clicks the "Log out" button

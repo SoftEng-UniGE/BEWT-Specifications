@@ -21,3 +21,10 @@ Scenario: Tries to add a menu item without selecting a menu and fails
 		#the iframe closes
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Menu" is shown on a red box
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

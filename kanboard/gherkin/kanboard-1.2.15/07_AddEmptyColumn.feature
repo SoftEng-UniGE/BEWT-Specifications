@@ -10,3 +10,7 @@ Scenario: Tries to add a column without name and fails
 		And clicks the "Add a new column" link
 		And clicks the "Save" button
 	Then "The title is required" is shown below the "Title" field
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

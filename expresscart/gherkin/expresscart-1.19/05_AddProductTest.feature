@@ -11,3 +11,6 @@ Scenario: Adds a product to the system
 		And clicks the "Add product" button
 		And clicks the "Products" link
 	Then "NewProduct" is shown in the first row of the table
+		
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

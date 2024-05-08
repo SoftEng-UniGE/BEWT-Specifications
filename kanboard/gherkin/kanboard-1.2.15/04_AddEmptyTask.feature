@@ -9,3 +9,7 @@ Scenario: Tries to  add a task without title and fails
 		And clicks the "Add a new task" link
 		And clicks the "Save" button
 	Then "The project name is required" is show below the "Title" field
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

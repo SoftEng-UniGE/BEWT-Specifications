@@ -13,3 +13,7 @@ Scenario: Tries to add a local user without confirming the password and fails
 		And enters "test123" in the "Password" field
 		And clicks the "Save" button
 	Then "The confirmation is required" is shown below the "Confirmation" field
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

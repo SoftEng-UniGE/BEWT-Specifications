@@ -15,3 +15,10 @@ Scenario: Deletes a field group
 		And clicks the checbox to the left of "Test Group 000"
 		And clicks the "Trash" button
 	Then "Test Group 000" is not shown in the page
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

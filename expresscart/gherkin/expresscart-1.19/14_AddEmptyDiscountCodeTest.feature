@@ -8,3 +8,6 @@ Scenario: Tries to add an empty discount code and fails
 		And clicks the "New discount" button
 		And clicks the "Add disocunt" button
 	Then the fields "Discount code" and "Discount value" are highlighted in red
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

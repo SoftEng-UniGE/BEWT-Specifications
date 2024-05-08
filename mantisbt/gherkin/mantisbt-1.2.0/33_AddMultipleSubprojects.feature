@@ -25,3 +25,6 @@ Scenario: Adds a new project and then adds two subprojects
 		And clicks the "Add Project" button
 		And clicks "Proceed"
 	Then "testSubProject2" is shown below "testSubProject1"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

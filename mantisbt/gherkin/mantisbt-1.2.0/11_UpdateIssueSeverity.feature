@@ -6,3 +6,6 @@ Scenario: Changes the severity of an issue
 		And selects "major" in the "Severity" dropdown select
 		And clicks the "Update Information" button
 	Then "major" is shown to the right of "Severity"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

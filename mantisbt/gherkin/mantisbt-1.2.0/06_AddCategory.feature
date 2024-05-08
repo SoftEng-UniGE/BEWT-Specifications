@@ -7,3 +7,6 @@ Scenario: Adds a category
 		And enters "Category001" in the text fielkd to the left of the "Add Category" button
 		And clicks the "Add Category" button
 	Then "Category001" is shown in the "Category" column of the table in the "Categories" section
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

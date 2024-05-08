@@ -10,3 +10,6 @@ Scenario: Tries to add an already existing user and fails
 		And selects "updater" in the "Access Level" dropdown select
 		And clicks the "Create user" button
 	Then "That username is already being used. Please go back and select another one." is shown in red
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

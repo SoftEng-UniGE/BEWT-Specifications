@@ -42,3 +42,6 @@ Scenario: Adds three new users
 	And "username003" is shown as real name of the second user
 	And "username003@username.it" is shown as e-mail of the second user
 	And "updater" is shown as access level of the second user
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

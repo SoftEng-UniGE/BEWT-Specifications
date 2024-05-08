@@ -9,3 +9,6 @@ Scenario: Deletes a user
 		And accepts the JavaScript alert
 		And clicks on the "Users" link
 	Then "test000@test.com" is not shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

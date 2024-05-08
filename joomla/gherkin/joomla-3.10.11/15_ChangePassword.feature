@@ -9,3 +9,7 @@ Scenario: Changes the password of a user
 		And enters "newpassword01" in the "Confirm Password (optional)" field
 		And clicks the "Submit" button
 	Then "Profile saved." is shown on a green box
+	
+	Given the previous assertion passed
+	Then the user clicks the "Author Login" link
+	And clicks the "Log out" button

@@ -15,3 +15,10 @@ Scenario: Adds a group
 		And clicks the "New" button
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Group Title" is shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

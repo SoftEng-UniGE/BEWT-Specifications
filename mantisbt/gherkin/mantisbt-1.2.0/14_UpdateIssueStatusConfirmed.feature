@@ -6,3 +6,6 @@ Scenario: Changes the status of an issue to "confirmed"
 		And selects "confirmed" in the "Status" dropdown select
 		And clicks the "Update Information" button
 	Then "confirmed" is shown to the right of "Status"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

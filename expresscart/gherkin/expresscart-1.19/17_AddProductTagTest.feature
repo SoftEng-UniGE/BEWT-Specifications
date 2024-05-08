@@ -9,3 +9,6 @@ Scenario: Adds a tag to a product
 		And enters "tag000," in the "Product tag words" field
 		And clicks the "Save product" button
 	Then "tag000" is shown in the "Product tag words" field
+		
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

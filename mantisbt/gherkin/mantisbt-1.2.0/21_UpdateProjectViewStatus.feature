@@ -7,3 +7,6 @@ Scenario: Changes the view status (visibility) of a project
 		And selects "private" in the "View Status" dropdown select
 		And clicks the "Update Project" button
 	Then "private" is shown in the "View status" column of the table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

@@ -9,3 +9,6 @@ Scenario: Deletes a discount code (by percent)
 		And confirms the JavaScript alert
 		And clicks the "Discount codes" link
 	Then "discperc000" is not shown on the page
+		
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

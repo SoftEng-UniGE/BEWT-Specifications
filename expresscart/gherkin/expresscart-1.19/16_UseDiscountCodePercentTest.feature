@@ -17,3 +17,7 @@ Scenario: Buys a product using a discound code (by percent)
 		And clicks the "Apply" button
 		And waits for at least 6 seconds
 	Then "Discount: £7.98" is displayed on the page
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon between the language selector and the cart
+	And clicks "Logout"

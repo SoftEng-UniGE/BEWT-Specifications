@@ -9,3 +9,7 @@ Scenario: Tries to change the password of a user with two non matching passwords
 		And enters "zxczxczxc23" in the "Confirm Password (optional)" field
 		And clicks the "Submit" button
 	Then "The passwords you entered do not match. Please enter your desired password in the password field and confirm your entry by entering it in the confirm password field." is shown on a yellow box
+		
+	Given the previous assertion passed
+	Then the user clicks the "Author Login" link
+	And clicks the "Log out" button

@@ -13,3 +13,7 @@ Scenario: Changes the email associated to a user's profile
 		And enters "admin@kanboard.com" in the "Email" field
 		And clicks the "Save" button
 	Then "admin@kanboard.com" is shown to the right of "Email: "
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

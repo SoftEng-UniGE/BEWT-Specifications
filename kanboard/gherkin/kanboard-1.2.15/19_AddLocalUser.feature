@@ -16,3 +16,7 @@ Scenario: Adds a local user
 	Then "Login: TestUser" is shown in the summary
 	And "Full Name: User1" is shown in the summary
 	And "Email: user@gmail.com" is shown in the summary
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

@@ -17,3 +17,7 @@ Scenario: Tries to buy a product using a deleted discound code (by percent) and 
 		And clicks the "Apply" button
 	#the box is displayed for about 2 seconds then disappears
 	Then "Discount code is invalid or expired" is shown in a red box to the bottom of the page
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon between the language selector and the cart
+	And clicks "Logout"

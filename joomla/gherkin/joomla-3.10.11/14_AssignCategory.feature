@@ -15,3 +15,10 @@ Scenario: Assigns a category to an article
 		And selects "Test Category 001" from the "Category" dropdown select
 		And clicks the "Save & Close" button
 	Then "Test Category 001" is shown below the "Your Template" link
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

@@ -17,3 +17,7 @@ Scenario: Adds a review to a product
 	Then "Title: Review000" is shown on the page
 	And "Description: Description000" is shown on the page
 	And "Rating: 5" is shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks on the user icon between the language selector and the cart
+	And clicks "Logout"

@@ -8,3 +8,7 @@ Scenario: Opens the previously created menu to see the archived articles
 		And clicks the "Home" link
 		And clicks the "Test menu item" link
 	Then "Your Modules" is shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Author Login" link
+	And clicks the "Log out" button

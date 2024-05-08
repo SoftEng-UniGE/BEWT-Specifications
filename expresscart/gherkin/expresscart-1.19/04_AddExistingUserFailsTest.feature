@@ -12,3 +12,6 @@ Scenario: Tries to add a user with the same data of an already existing user and
 		And clicks the "Create" button
 	#the alert is shown for about 2 seconds then disappears
 	Then "A user with that email address already exists" is shown in a red alert at the bottom of the table
+		
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

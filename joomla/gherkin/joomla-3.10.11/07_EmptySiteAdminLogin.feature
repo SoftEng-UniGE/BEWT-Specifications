@@ -9,3 +9,8 @@ Scenario: Tries to login to the site administration area with wrong credentials 
 		#a new tab opens
 		And clicks the "Log in" button
 	Then "Empty password not allowed." is shown in a yellow box
+	
+	Given the previous assertion passed
+	Then the user closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

@@ -11,3 +11,7 @@ Scenario: Adds a new swimlane
 		And enters "New Swimlane 3" in the "Name" field
 		And clicks the "Save" button
 	Then "New Swimlane 3" is shown in the last row of the table
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

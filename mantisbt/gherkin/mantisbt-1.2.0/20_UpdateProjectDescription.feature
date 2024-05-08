@@ -8,3 +8,6 @@ Scenario: Changes the description of a project
 		And enters "UpdatedDescription" in the "Description" field
 		And clicks the "Update Project" button
 	Then "UpdatedDescription" is shown in the "Description" column of the table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

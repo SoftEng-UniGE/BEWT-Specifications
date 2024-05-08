@@ -6,3 +6,6 @@ Scenario: Changes the priorrity of an issue
 		And selects "low" in the "Priority" dropdown select
 		And clicks the "Update Information" button
 	Then "low" is shown to the right of "Priority"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

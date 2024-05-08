@@ -9,3 +9,7 @@ Scenario: Add a new project
 		And clicks the "Save" button
 	Then "Test 2" is shown to the right of the "KB" logo
 	And "This project is open" is shown below "Summary"
+
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

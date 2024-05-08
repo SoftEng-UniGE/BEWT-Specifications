@@ -15,3 +15,10 @@ Scenario: Adds a category
 		And enters "Test Category 001" in the "Title" field
 		And clicks the "Save & Close" button
 	Then "Test Category 001" is shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

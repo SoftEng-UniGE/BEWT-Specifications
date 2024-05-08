@@ -8,3 +8,6 @@ Scenario: Tries to change a category's name with an empty string and fails
 		And clears the "Category" field
 		And clicks the "Update Category" button
 	Then "A necessary field \"\" was empty. Please recheck your inputs." is shown in red
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

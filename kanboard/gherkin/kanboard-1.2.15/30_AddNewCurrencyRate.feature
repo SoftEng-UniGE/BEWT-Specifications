@@ -12,3 +12,7 @@ Scenario: Adds a new currency rate
 		And clicks the "Save" button
 	Then the column "Currency" has value "USD"
 	And the column "Rate" has value "1.20"
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

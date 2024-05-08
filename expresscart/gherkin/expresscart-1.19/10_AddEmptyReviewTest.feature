@@ -12,3 +12,7 @@ Scenario: Tries to add an empty review to a product and fails
 		And clicks the "Add review" button
 	#the alert is shown for about 2 seconds then disappears
 	Then "Please supply a review title" is shown in a red bar to the bottom of the screen
+		
+	Given the previous assertion passed
+	Then the user clicks on the user icon between the language selector and the cart
+	And clicks "Logout"

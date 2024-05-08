@@ -15,3 +15,10 @@ Scenario: Tries to add an empty field group and fails
 		And clicks the "New" button
 		And clicks the "Save & Close" button
 	Then "Invalid field:  Title" is shown in a red box
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

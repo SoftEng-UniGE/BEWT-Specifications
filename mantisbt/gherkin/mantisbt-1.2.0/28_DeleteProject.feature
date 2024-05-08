@@ -7,3 +7,6 @@ Scenario: Deletes a project
 		And clicks the "Delete Project" button
 		And clicks the "Delete Project" button
 	Then "Project001" is not shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

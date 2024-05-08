@@ -12,3 +12,6 @@ Scenario: Adds a menu
 		And clicks the green "+" button
 	#the box is displayed for about 2 seconds, then disappears
 	Then "Menu created successfully" appears in a green box at the bottom of the screen
+		
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

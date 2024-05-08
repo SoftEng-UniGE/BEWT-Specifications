@@ -8,3 +8,6 @@ Scenario: Deletes a user
 		And clicks the "Delete Account" button
 		And clicks "Proceed"
 	Then "username001" is not shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

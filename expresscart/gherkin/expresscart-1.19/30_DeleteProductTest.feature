@@ -9,3 +9,6 @@ Scenario: Deletes a product
 		And accepts the JavaScript alert
 		And clicks on the "Products" link
 	Then "NewProduct000" is not shown on the page
+		
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

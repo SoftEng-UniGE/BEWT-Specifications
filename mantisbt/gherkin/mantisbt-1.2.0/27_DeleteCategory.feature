@@ -8,3 +8,6 @@ Scenario: Deletes a category
 		And clicks the "Delete Category" button
 		And clciks the "Proceed" link
 	Then the page does not contain "Category002"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

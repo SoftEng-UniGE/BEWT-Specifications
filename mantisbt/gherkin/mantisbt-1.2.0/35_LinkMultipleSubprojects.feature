@@ -14,3 +14,6 @@ Scenario: Links two subprojects to another project
 		And clicks the "Add as Subproject" button
 		And clicks "Proceed"
 	Then "testSubProject2" is shown in the second row of the "Subprojects" table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

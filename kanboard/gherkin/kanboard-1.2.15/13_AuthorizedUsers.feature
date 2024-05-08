@@ -8,3 +8,7 @@ Scenario: Check the users permissions on a project
 		And clicks the "Configure this project" link
 		And clicks the "Permissions" link
 	Then "admin" is the only user shown in the "Allowed Users" section
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

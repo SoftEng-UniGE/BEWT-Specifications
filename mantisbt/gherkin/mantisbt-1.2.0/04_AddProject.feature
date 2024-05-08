@@ -15,3 +15,6 @@ Scenario: Adds a new project
 	And "release" is shown as status
 	And "public" is shown as "View Status"
 	And "Description" is shown as "Description"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

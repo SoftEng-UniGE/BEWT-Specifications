@@ -10,3 +10,7 @@ Scenario: Tries to add a swimlane without name and fails
 		And clicks the "Add a new swimlane" link
 		And clicks the "Save" button
 	Then "The name is required" is shown below the "Name" field
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

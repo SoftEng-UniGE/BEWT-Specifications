@@ -14,3 +14,7 @@ Scenario: Tries to add a local user with non matching passwords and fails
 		And enters "123test" in the "Confirmation" field
 		And clicks the "Save" button
 	Then "Passwords don't match" is shown below the "Password" field
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

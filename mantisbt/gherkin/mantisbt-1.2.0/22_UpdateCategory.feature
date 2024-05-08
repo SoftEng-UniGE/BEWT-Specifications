@@ -9,3 +9,6 @@ Scenario: Changes a category's name
 		And enters "Category002" in the "Category" field
 		And clicks the "Update Category" button
 	Then "Category002" is shown in the "Category" column of the table in the "Categories" section
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

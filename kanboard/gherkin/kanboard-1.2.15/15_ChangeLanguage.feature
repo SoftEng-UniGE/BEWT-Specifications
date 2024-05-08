@@ -17,3 +17,7 @@ Scenario: Changes the application language (and then sets it back to English)
 		And clicks the "Salva" button
 	Then the language selection dropdown select is now labeled "Language"
 	And "English (US)" is selected in the "Language" dropdown select
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

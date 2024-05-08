@@ -15,4 +15,6 @@ Scenario: Adds a discount code (by percent) to the system
 		And clicks the "Add disocunt" button
 		And clicks the "Discount codes" button
 	Then "Code: discperc000" is shown in the last row of the table
-
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

@@ -11,3 +11,7 @@ Scenario: Changes the reference currency
 		And selects "EUR - Euro" in the dropdown select
 		And clicks the "Save" button
 	Then "Reference currency: EUR" is shown on the page
+	
+	Given the previous assertion passed
+	Then the user clicks on the "A" icon in the top-right corner of the screen
+	And clicks the "Logout" link

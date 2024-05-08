@@ -16,3 +16,10 @@ Scenario: Deletes a user
 		And confirms the JavaScript alert
 	Then "1 user deleted" is shown on a green box
 	And "Test User" is not present on the page
+	
+	Given the previous assertion passed
+	Then the user clicks the down pointing arrow icon in the top-right corner of the page
+	And clicks the "Log out" button
+	And closes the current tab
+	And clicks the "Log out" link
+	And clicks the "Log out" button

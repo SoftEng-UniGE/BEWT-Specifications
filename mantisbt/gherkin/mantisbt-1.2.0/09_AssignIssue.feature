@@ -7,3 +7,6 @@ Scenario: Assigns an issue to the administrator
 		And clicks the "OK" button
 		And clicks the "Assign Isues" button
 	Then "assigned (administrator)" is shown in the "Status" column of the table
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

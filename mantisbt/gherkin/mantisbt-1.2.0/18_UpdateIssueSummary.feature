@@ -7,3 +7,6 @@ Scenario: Changes the summary of an issue
 		And enters "Summary002" in the "Summary" field
 		And clicks the "Update Information" button
 	Then "0000001: Summary002 " is shown to the right of "Summary"
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

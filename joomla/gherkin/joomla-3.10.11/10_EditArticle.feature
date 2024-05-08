@@ -11,3 +11,7 @@ Scenario: Edits an article
 		And enters "EDITED" in the main text editor
 		And clicks the "Save" button
 	Then "This is the body of the first article for testing the platformEDITED" is shown as text of the first article
+	
+	Given the previous assertion passed
+	Then the user clicks the "Author Login" link
+	And clicks the "Log out" button

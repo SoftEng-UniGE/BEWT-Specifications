@@ -13,3 +13,6 @@ Scenario: Adds a new issue
 	Then "Category001" is shown as category of the only issue
 	And "crash" is shown as severity of the only issue
 	And "Summary001" is shown as summary of the only issue
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link

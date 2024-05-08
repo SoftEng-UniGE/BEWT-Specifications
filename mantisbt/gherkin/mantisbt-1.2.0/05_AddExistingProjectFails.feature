@@ -10,3 +10,6 @@ Scenario: Tries to add an existing project and fails
 		And enters "Description" in the "Description" field
 		And clicks the "Add Project" button
 	Then "A project with that name already exists. Please go back and enter a different name." is shown in red
+	
+	Given the previous assertion passed
+	Then the user clicks the "Logout" link
