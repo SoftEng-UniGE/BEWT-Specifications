@@ -46,9 +46,9 @@ Open a shell to the container with the command
 docker exec -it some-prestashop bash
 ```
 
-then remove the `install` directory and rename the `admin` directory to `admin929rtmgmy`
+then remove the `install` directory and rename the `admin` directory to `administrator`
 
 ```bash
 rm -rf install
-mv admin admin929rtmgmy
+mv admin administrator
 ```

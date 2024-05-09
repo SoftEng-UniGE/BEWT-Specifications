@@ -1,6 +1,6 @@
 Feature: Catalog management
 Scenario: Tries to add a manufacturer without name and fails
-	Given ther user is on the home page
+	Given ther user is on the login page of the administration panel (/administrator)
 	When the user enters "admin@prestashop.com" in the "Email address" field
 		And enters "password" in the "Password" field
 		And clicks the "Login" button

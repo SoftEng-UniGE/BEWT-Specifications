@@ -1,6 +1,6 @@
 Feature: Supplier management
 Scenario: Adds a new supplier
-	Given ther user is on the home page
+	Given ther user is on the login page of the administration panel (/administrator)
 	When the user enters "admin@prestashop.com" in the "Email address" field
 		And enters "password" in the "Password" field
 		And clicks the "Login" button

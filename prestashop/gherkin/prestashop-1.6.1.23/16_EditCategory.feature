@@ -1,6 +1,6 @@
 Feature: Catalog management
 Scenario: Changes the name of a category
-	Given ther user is on the home page
+	Given ther user is on the login page of the administration panel (/administrator)
 	When the user enters "admin@prestashop.com" in the "Email address" field
 		And enters "password" in the "Password" field
 		And clicks the "Login" button

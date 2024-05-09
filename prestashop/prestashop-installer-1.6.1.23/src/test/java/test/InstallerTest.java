@@ -48,7 +48,7 @@ public class InstallerTest {
 		Thread.sleep(5000);
 		driver.findElement(By.id("btNext")).click();
 		
-		System.out.println("Setup complete. Now: \n1) access the container using docker exec -it some-prestashop bash\n 2) remove directory \"install\"\n 3) rename \"admin\" directory to \"admin929rtmgmy\" ");
+		System.out.println("Setup complete. Now: \n1) access the container using docker exec -it some-prestashop bash\n 2) remove directory \"install\"\n 3) rename \"admin\" directory to \"administrator\" ");
 	}
 
 }
