@@ -38,7 +38,7 @@ Scenario: Adds questions to an exercise
 		And clears the second "Weighting" field
 		And enters "0" in the second "Weighting" field
 		And clears the third "Weighting" field
-		And enters "-3" in the second "Weighting" field
+		And enters "-3" in the third "Weighting" field
 		And clicks the "Ok" button
 		And clicks on the "Exercise 001" link
 	Then the first row of the table contains "Question 1" in the "Question" column and "Multiple choice (Unique answer)" in the "Answer type" column
