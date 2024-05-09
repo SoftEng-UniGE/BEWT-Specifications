@@ -9,5 +9,5 @@ Scenario: Add a new draft
 		And clicks the "Save as draft" button
 	Then "Draft Content" is shown as first content in the "DRAFT" section of the "Manage content" page
 
-	Given the previous assertion passed
+	Given the previous assertion passed and the success notification disappeared
 	Then the user clicks the "Log out" link

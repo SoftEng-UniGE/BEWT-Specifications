@@ -9,5 +9,5 @@ Scenario: Add a new content
 		And clicks the "Save" button
 	Then "Test Content" is shown as first content in the "Published" section of the "Manage content" page
 
-	Given the previous assertion passed
+	Given the previous assertion passed and the success notification disappeared
 	Then the user clicks the "Log out" link
