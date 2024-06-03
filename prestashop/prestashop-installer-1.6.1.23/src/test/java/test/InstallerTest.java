@@ -33,6 +33,9 @@ public class InstallerTest {
 		driver.findElement(By.id("infosActivity_chosen")).click();
 		driver.findElement(By.xpath("//*[@id=\"infosActivity_chosen\"]/div/div/input")).sendKeys("Computer");
 		driver.findElement(By.xpath("//*[@id=\"infosActivity_chosen\"]/div/div/input")).sendKeys(Keys.ENTER);
+		driver.findElement(By.id("infosCountry_chosen")).click();
+		driver.findElement(By.xpath("//*[@id=\"infosCountry_chosen\"]/div/div/input")).sendKeys("Italy");
+		driver.findElement(By.xpath("//*[@id=\"infosCountry_chosen\"]/div/div/input")).sendKeys(Keys.ENTER);
 		driver.findElement(By.id("infosFirstname")).sendKeys("Dario");
 		driver.findElement(By.id("infosName")).sendKeys("Olianas");
 		driver.findElement(By.id("infosEmail")).sendKeys("admin@prestashop.com");
@@ -48,7 +51,7 @@ public class InstallerTest {
 		Thread.sleep(5000);
 		driver.findElement(By.id("btNext")).click();
 		
-		System.out.println("Setup complete. Now: \n1) access the container using docker exec -it some-prestashop bash\n 2) remove directory \"install\"\n 3) rename \"admin\" directory to \"administrator\" ");
+		System.out.println("Setup complete. Now: \n1) Wait to installation to finish (see browser) 2) access the container using docker exec -it some-prestashop bash\n 3) remove directory \"install\"\n 4) rename \"admin\" directory to \"administrator\" ");
 	}
 
 }
