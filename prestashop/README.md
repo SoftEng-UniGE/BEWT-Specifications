@@ -1,24 +1,25 @@
 E2E Web Testing benchmark
 =========================
 
-Gherkin specifications for Prestashop
+Gherkin specifications for PrestaShop
 ----------------------
 
-This directory contains Gherkin speficiations and an automated installer for Prestashop.
+[PrestaShop](https://prestashop.com/) is an open-source e-commerce platform used for building and managing online stores.
+
+This directory contains Gherkin specializations and an automated installer for PrestaShop 1.6.1.23.
 
 # Deployment instructions
 The Docker containers for the application under test can be created using the following commands:
 
-
 ```bash
-#Prestashop 1.6.1.23
-docker network create prestashop-net 
-docker run -ti --name some-mysql --network prestashop-net -e MYSQL_ROOT_PASSWORD=admin -p 3307:3306 -d mysql:5.7
-docker run -ti --name some-prestashop --network prestashop-net -e DB_SERVER=some-mysql -p 8080:80 -d prestashop/prestashop:1.6.1.23
+docker network create prestashop-net
+docker run --rm -it --name some-mysql --network prestashop-net -e MYSQL_ROOT_PASSWORD=admin -p 3307:3306 mysql:5.7
+docker run --rm -it --name some-prestashop --network prestashop-net -e DB_SERVER=some-mysql -p 8080:80 prestashop/prestashop:1.6.1.23
 ```
 
+The web application will be exposed on http://localhost:8080
 
-The web application will be exposed on `localhost:8080`. After the containers are deployed, an installation wizard must be followed
+After the containers are deployed, an installation wizard must be followed
 
 # Installation instructions
 The installation wizard can be executed automatically by running `InstallerTest.install` (located in the Maven project `prestashop-installer-1.6.1.23`) as a JUnit test. You can run it with Maven using the command 
