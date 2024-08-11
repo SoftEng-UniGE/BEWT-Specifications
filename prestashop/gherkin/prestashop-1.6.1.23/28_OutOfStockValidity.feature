@@ -1,6 +1,6 @@
 Feature: Order management
 Scenario: Tries to create an order for an out of stock product and fails
-	Given ther user is on the login page of the administration panel (/administrator)
+	Given the user is on the login page of the administration panel (/administrator)
 	When the user enters "admin@prestashop.com" in the "Email address" field
 		And enters "password" in the "Password" field
 		And clicks the "Login" button

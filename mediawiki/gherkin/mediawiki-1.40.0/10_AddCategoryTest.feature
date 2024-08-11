@@ -14,7 +14,7 @@ Scenario: Adds a new category
 		And presses Enter
 		And clicks the "Apply changes" button
 		And clicks the "Save" button
-		And enters "Added category" in the sumamry
+		And enters "Added category" in the summary
 		And clicks the "Save page" button
 	Then the page has title "Selenium WebDriver"
 	And "Category: Browser automation tools" is displayed at the end of the page
