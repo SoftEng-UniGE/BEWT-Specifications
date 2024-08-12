@@ -3,7 +3,7 @@ Scenario: Add a new private project
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
 		And enters "admin" in the "Password" field
-		And clicks thre "Sign in" button
+		And clicks the "Sign in" button
 		And clicks the "New personal project" link
 		And enter "Test private 2" in the "Name" field
 		And clicks the "Save" button

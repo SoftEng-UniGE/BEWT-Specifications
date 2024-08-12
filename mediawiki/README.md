@@ -41,4 +41,4 @@ in the directory `mediawiki-installer-1.40.0`. If, for any reason, the automatic
 * Check **all editors**
 * Disable caching (select **No caching** in **Settings for object caching**)
 
-After the installation (either manual or automatic), a PHP file named `LocalSettings.php` will be downloaded. Copy this file into the container under `/var/www/html` with the command `docker cp LocalSettings.php mediawiki-mediawiki-1:/var/www/html` and the application will be ready for testing.
+After the installation (either manual or automatic), a PHP file named `LocalSettings.php` will be downloaded. Copy this file into the container under `/var/www/html` with the command `docker cp LocalSettings.php downloads-mediawiki-1:/var/www/html` and the application will be ready for testing.

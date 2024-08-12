@@ -11,7 +11,7 @@ Scenario: Creates a new page
 		And closes the notification
 		And enters the text of the page in the editor
 		And clicks the "Save" button
-		And enters "Page created" in the sumamry
+		And enters "Page created" in the summary
 		And clicks the "Save page" button
 	Then the page is displayed with "Software testing" as title and the previously inserted text as body
 	

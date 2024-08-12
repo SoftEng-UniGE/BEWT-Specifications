@@ -3,7 +3,7 @@ Scenario: Adds a new task to a project
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
 		And enters "admin" in the "Password" field
-		And clicks thre "Sign in" button
+		And clicks the "Sign in" button
 		And clicks the "Test 2" link
 		And clicks the gear icon to the left of the screen
 		And clicks the "Add a new task" link

@@ -5,7 +5,7 @@ Scenario: Assigns an issue to the administrator
 		And clicks the checkbox of the first issue
 		And selects "Assign" in the dropdown select
 		And clicks the "OK" button
-		And clicks the "Assign Isues" button
+		And clicks the "Assign Issues" button
 	Then "assigned (administrator)" is shown in the "Status" column of the table
 	
 	Given the previous assertion passed

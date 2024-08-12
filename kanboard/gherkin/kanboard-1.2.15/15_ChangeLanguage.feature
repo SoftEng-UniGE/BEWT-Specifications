@@ -3,7 +3,7 @@ Scenario: Changes the application language (and then sets it back to English)
 	Given the user is on the login page (/login)
 		When the user enters "admin" in the "Username" field
 		And enters "admin" in the "Password" field
-		And clicks thre "Sign in" button
+		And clicks the "Sign in" button
 		And clicks the icon in the top right corner of the page
 		And clicks the "Settings" link
 		And clicks the "Application settings" link

@@ -4,7 +4,7 @@ Scenario: Tries to add an existing category and fails
 	When the user clicks the "Manage" link
 		And clicks the "Manage Projects" link
 		And clicks the "Project001" link
-		And enters "Category001" in the text fielkd to the left of the "Add Category" button
+		And enters "Category001" in the text field to the left of the "Add Category" button
 		And clicks the "Add Category" button
 	Then "A category with that name already exists." is shown in red
 	
