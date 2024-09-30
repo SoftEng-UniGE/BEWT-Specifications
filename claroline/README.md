@@ -15,11 +15,4 @@ The Docker container for the application under test can be created using the fol
 docker run --rm -it --workdir=/home/claroline --name=claroline --expose 80 --expose 3306 -p 3000:80 -p 3306:3306 --entrypoint ./run-services-docker.sh dockercontainervm/claroline:1.11.10 bash
 ```
 
-<<<<<<< HEAD
 The web application will be exposed on `http://localhost:3000/claroline11110/index.php`. The application is ready to use when the container is started, no post-installation steps are required.
-=======
-The web application will be exposed on http://localhost:3000
-
-The application is ready to use when the container is started, no post-installation steps are required.
->>>>>>> 87b347f50dd35392028d92e98ed6fbe850d2b125
-
