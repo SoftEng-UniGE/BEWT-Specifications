@@ -1,6 +1,6 @@
 Feature: Catalog management
 Scenario: Checks that taxes are computed correctly when adding a new product using the italian reduced VAT rate (10%)
-	Given ther user is on the login page of the administration panel (/administrator)
+	Given the user is on the login page of the administration panel (/administrator)
 	When the user enters "admin@prestashop.com" in the "Email address" field
 		And enters "password" in the "Password" field
 		And clicks the "Login" button

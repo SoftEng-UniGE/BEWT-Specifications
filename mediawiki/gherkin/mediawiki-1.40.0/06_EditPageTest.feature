@@ -10,7 +10,7 @@ Scenario: Edits a page
 		And clicks the "Edit" link
 		And enters the additional text at the end of the editor
 		And clicks the "Save" button
-		And enters "Page expanded" in the sumamry
+		And enters "Page expanded" in the summary
 		And clicks the "Save page" button
 	Then the page is displayed with "Software testing" as title and the full text as body
 	

@@ -1,20 +1,23 @@
 E2E Web Testing benchmark
 =========================
 
-Gherkin specifications for Mediawiki
+Gherkin specifications for MediaWiki
 ----------------------
 
-This directory contains Gherkin speficiations and an automated installer for Mediawiki.
+[MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) is an and open-source wiki software package written in PHP. Originally developed for Wikipedia, it now powers many other wikis.
+
+This directory contains Gherkin specifications and an automated installer for MediaWiki 1.40.0.
 
 # Deployment instructions
-The Docker containers for Mediawiki can be created using the `docker-compose.yml` file contained in this direcctory. Just move into the directory using a terminal and type:
+The Docker containers for MediaWiki can be created using the `docker-compose.yml` file contained in this directory. Just move into the directory using a terminal and type:
 
 ```bash
 docker compose up
 ```
 
+The web application will be exposed on http://localhost:8080
 
-The web application will be exposed on `localhost:8080`. An installation wizard must be followed after deploying the container.
+An installation wizard must be followed after deploying the container.
 
 # Installation instructions
 
@@ -38,4 +41,4 @@ in the directory `mediawiki-installer-1.40.0`. If, for any reason, the automatic
 * Check **all editors**
 * Disable caching (select **No caching** in **Settings for object caching**)
 
-After the installation (either manual or automatic), a PHP file named `LocalSettings.php` will be downloaded. Copy this file into the container under `/var/www/html` with the command `docker cp LocalSettings.php mediawiki-mediawiki-1:/var/www/html` and the application will be ready for testing.
+After the installation (either manual or automatic), a PHP file named `LocalSettings.php` will be downloaded. Copy this file into the container under `/var/www/html` with the command `docker cp LocalSettings.php downloads-mediawiki-1:/var/www/html` and the application will be ready for testing.

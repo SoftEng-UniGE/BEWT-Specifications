@@ -16,7 +16,7 @@ Scenario: Creates a new page containing an hyperlink to another page
 		And clicks the editor after the "Software testing" link
 		And enters the last part of the text
 		And clicks the "Save" button
-		And enters "Page created" in the sumamry
+		And enters "Page created" in the summary
 		And clicks the "Save page" button
 	Then the page is displayed with "E2E Web Testing" as title
 

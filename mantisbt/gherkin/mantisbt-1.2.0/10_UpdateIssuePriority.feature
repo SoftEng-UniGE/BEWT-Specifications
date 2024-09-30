@@ -1,5 +1,5 @@
 Feature: Issue management
-Scenario: Changes the priorrity of an issue
+Scenario: Changes the priority of an issue
 	Given the user is on the home of the site and logged as administrator
 	When the user clicks the "View Issues" link
 		And clicks the pencil icon in the row of the first issue
