@@ -35,7 +35,7 @@ If, for any reason, the automatic installation fails, these are the parameters t
 * First name: Dario
 * Second name: Olianas
 * E-mail address: admin@prestashop.com
-* Password: password
+* Password: e2eW3Bt3s71nGB3nchM4rK
 * Database server address: some-mysql
 * Database password: admin
 * Click "Test your database connection now!", then "Attempt to create the database automatically"

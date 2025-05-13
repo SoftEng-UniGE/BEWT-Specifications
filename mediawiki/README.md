@@ -33,7 +33,7 @@ in the directory `mediawiki-installer-1.40.0`. If, for any reason, the automatic
 * Database password: **example**
 * Wiki name: **E2E Web Testing wiki**
 * Your username: **admin**
-* Password: **Password001**
+* Password: **e2eW3Bt3s71nGB3nchM4rK**
 * E-mail address: **admin@wiki.example**
 * User rights profile: **Authorized editors only**
 * Uncheck **Enable outbound email**

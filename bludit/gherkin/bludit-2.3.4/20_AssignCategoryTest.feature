@@ -2,7 +2,7 @@ Feature: Content management
 Scenario: Assigns a category to a content
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
-		And enters "password" in the Password field
+		And enters "e2eW3Bt3s71nGB3nchM4rK" in the Password field
 		And clicks the "Login" button
 		And clicks the "Content" link
 		And clicks the "Create your own content" link

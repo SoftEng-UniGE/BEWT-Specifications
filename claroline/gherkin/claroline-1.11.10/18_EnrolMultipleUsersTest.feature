@@ -1,4 +1,3 @@
-Feature: Course enrolment
 Scenario: Enrols a user to a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "testuser1" in the "Username" field
@@ -32,13 +31,15 @@ Scenario: Enrols a user to a course
 		And clicks the logout button
 		And goes to the home page of the site (/claroline11110/index.php)
 		And enters "admin" in the "Username" field
-		And enters "admin" in the "Password" field
+		And enters "n0tl34k3dy3t" in the "Password" field
 		And clicks the "Enter" button
 		And clicks the "001 - Course001" link
 		And clicks the button to the left of the "Users" link
+
 	Then the page contains "testuser1"
 	And the page contains "testuser2"
 	And the page contains "testuser3"
-	
-	Given the previous assertion passed
+
+	Given the previous assertions passed
 	Then the user clicks the "Logout" link
+

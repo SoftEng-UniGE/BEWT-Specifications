@@ -2,7 +2,7 @@ Feature: Localization management
 Scenario: Adds a new currency
 	Given the user is on the login page of the administration panel (/administrator)
 	When the user enters "admin@prestashop.com" in the "Email address" field
-		And enters "password" in the "Password" field
+		And enters "e2eW3Bt3s71nGB3nchM4rK" in the "Password" field
 		And clicks the "Login" button
 		And hovers on "Localization"
 		And clicks on "Currencies"

@@ -1,8 +1,7 @@
-Feature: Course management
 Scenario: Adds an exercise to a course
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
-		And enters "admin" in the "Password" field
+		And enters "n0tl34k3dy3t" in the "Password" field
 		And clicks the "Enter" button
 		And clicks the "001 - Course001" link
 		And clicks the icon to the left of the "Exercises" link
@@ -13,3 +12,4 @@ Scenario: Adds an exercise to a course
 	
 	Given the previous assertion passed
 	Then the user clicks the "Logout" link
+

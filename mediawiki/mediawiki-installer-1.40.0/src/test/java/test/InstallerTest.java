@@ -40,8 +40,8 @@ public class InstallerTest {
 		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/div/div[1]/div[2]/form/div/input[3]")).click();
 		driver.findElement(By.id("config_wgSitename")).sendKeys("E2E Web Testing wiki");
 		driver.findElement(By.id("config__AdminName")).sendKeys("admin");
-		driver.findElement(By.id("config__AdminPassword")).sendKeys("Password001");
-		driver.findElement(By.id("config__AdminPasswordConfirm")).sendKeys("Password001");
+		driver.findElement(By.id("config__AdminPassword")).sendKeys("e2eW3Bt3s71nGB3nchM4rK");
+		driver.findElement(By.id("config__AdminPasswordConfirm")).sendKeys("e2eW3Bt3s71nGB3nchM4rK");
 		driver.findElement(By.id("config__AdminEmail")).sendKeys("admin@wiki.example");
 		driver.findElement(By.id("config_wgPingback")).click();
 		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/div/div[1]/div[2]/form/div[7]/input[3]")).click();
@@ -69,6 +69,12 @@ public class InstallerTest {
 		driver.findElement(By.id("config__MainCacheType_none")).click();
 		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/div/div[1]/div[2]/form/div[7]/input[3]")).click();
 		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/div/div[1]/div[2]/form/div[3]/input[3]")).click();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/div/div[1]/div[2]/form/div/input[2]")).click();
 		System.out.println("Setup complete. Now copy the LocalSettings.php into the container");
 	}

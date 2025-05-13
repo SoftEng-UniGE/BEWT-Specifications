@@ -12,7 +12,7 @@ This directory contains Gherkin specifications for ExpressCart 1.19.
 The Docker container for the application under test can be created using the following command:
 
 ```bash
-docker run --rm -it --name=expresscart -p "3000:1111" olianasd/expresscart-mongodb
+docker run -i -t  --name=expresscart -p "3000:1111" -d olianasd/expresscart-strongpsw
 ```
 
 The web application will be exposed on http://localhost:3000

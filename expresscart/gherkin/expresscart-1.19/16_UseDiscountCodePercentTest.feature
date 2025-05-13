@@ -1,10 +1,9 @@
-Feature: Discount codes
 Scenario: Buys a product using a discound code (by percent)
 	Given the user is on the home page 
 		#the icon is between the language selector and the cart
 		When the user clicks on the account icon
 		And enters "test@test.com" in the "email address" field
-		And enters "test" in the "Password" field
+		And enters "e2eW3Bt3s71nGB3nchM4rK" in the "Password" field
 		And clicks the "Sign in" button
 		And goes to the home page of the site
 		And clicks the "NewProduct000" link
@@ -17,7 +16,5 @@ Scenario: Buys a product using a discound code (by percent)
 		And clicks the "Apply" button
 		And waits for at least 6 seconds
 	Then "Discount: £7.98" is displayed on the page
-	
-	Given the previous assertion passed
-	Then the user clicks on the user icon between the language selector and the cart
-	And clicks "Logout"
+		
+

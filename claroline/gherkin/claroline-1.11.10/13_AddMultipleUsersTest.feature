@@ -1,8 +1,7 @@
-Feature: User management
 Scenario: Adds a user to the system
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "admin" in the "Username" field
-		And enters "admin" in the "Password" field
+		And enters "n0tl34k3dy3t" in the "Password" field
 		And clicks the "Enter" button
 		And clicks the "Platform administration" link
 		And clicks the "Create user" link
@@ -34,6 +33,6 @@ Scenario: Adds a user to the system
 	Then the page contains "testuser1"
 	And the page contains "testuser2"
 	And the page contains "testuser3"
-	
+
 	Given the previous assertion passed
 	Then the user clicks the "Logout" link

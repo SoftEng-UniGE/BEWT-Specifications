@@ -1,4 +1,3 @@
-Feature: Login
 Scenario: Tries to login with wrong credentials and fails
 	Given the user is on the home page
 		When the user clicks the "Author Login" link
@@ -6,3 +5,4 @@ Scenario: Tries to login with wrong credentials and fails
 		And enters "wrongpassword" in the "Password" field
 		And clicks the "Log in" button
 	Then "Username and password do not match or you do not have an account yet." is shown in a yellow box
+

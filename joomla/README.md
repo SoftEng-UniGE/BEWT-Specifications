@@ -32,7 +32,7 @@ If, for any reason, the automatic installation fails, these are the parameters t
 *	Site name: TestRigor joomla test
 *	Email: dario@fake.com
 *	Username: administrator
-*	Password: root
+*	Password: e2eW3Bt3s71nGB3nchM4rK
 * 	Database type: MySQLi
 *	Host Name: joomladb
 *	Username (database): root

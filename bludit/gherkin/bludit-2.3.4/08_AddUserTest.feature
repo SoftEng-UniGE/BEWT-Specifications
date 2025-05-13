@@ -2,7 +2,7 @@ Feature: User management
 Scenario: Adds a user to the system
 	Given the user is on the login page of the administration panel (/admin)
 		When the user enters "admin" in the Username field
-		And enters "password" in the Password field
+		And enters "e2eW3Bt3s71nGB3nchM4rK" in the Password field
 		And clicks the "Login" button
 		And clicks the "Users" link
 		And clicks the "Add a new user" link

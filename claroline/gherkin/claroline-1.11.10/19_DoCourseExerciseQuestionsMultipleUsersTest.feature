@@ -1,4 +1,3 @@
-Feature: Course exercises
 Scenario: Multiple users do an exercise
 	Given the user is on the home page (/claroline11110/index.php)
 		When the user enters "testuser1" in the "Username" field
@@ -38,7 +37,7 @@ Scenario: Multiple users do an exercise
 		And clicks the "Logout" button
 		And goes to the home page of the site (/claroline11110/index.php)
 		And enters "admin" in the "Username" field
-		And enters "admin" in the "Password" field
+		And enters "n0tl34k3dy3t" in the "Password" field
 		And clicks the "Enter" button
 		And clicks the "001 - Course001" link
 		And clicks the icon to the left of the "Exercises" link
@@ -49,6 +48,3 @@ Scenario: Multiple users do an exercise
 	And the column "Worst score" of the fourth row of the first table contains "0"
 	And the column "Student" of the fifth row of the first table contains "testuser3 testuser3"
 	And the column "Worst score" of the fifth row of the first table contains "6"
-	
-	Given the previous assertion passed
-	Then the user clicks the "Logout" link

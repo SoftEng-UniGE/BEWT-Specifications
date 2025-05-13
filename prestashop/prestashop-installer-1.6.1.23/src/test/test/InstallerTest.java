@@ -39,8 +39,8 @@ public class InstallerTest {
 		driver.findElement(By.id("infosFirstname")).sendKeys("Dario");
 		driver.findElement(By.id("infosName")).sendKeys("Olianas");
 		driver.findElement(By.id("infosEmail")).sendKeys("admin@prestashop.com");
-		driver.findElement(By.id("infosPassword")).sendKeys("password");
-		driver.findElement(By.id("infosPasswordRepeat")).sendKeys("password");
+		driver.findElement(By.id("infosPassword")).sendKeys("e2eW3Bt3s71nGB3nchM4rK");
+		driver.findElement(By.id("infosPasswordRepeat")).sendKeys("e2eW3Bt3s71nGB3nchM4rK");
 		driver.findElement(By.id("btNext")).click();
 		driver.findElement(By.id("dbServer")).clear();
 		driver.findElement(By.id("dbServer")).sendKeys("some-mysql");
