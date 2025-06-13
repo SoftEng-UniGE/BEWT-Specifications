@@ -6,8 +6,8 @@ Scenario: Adds a user to the system
 		And clicks the "+" icon to the right of the link "Users"
 		And enters "TestUser000" in the "Users name" field
 		And enters "test000@test.com" in the "User email" field
-		And enters "password" in the "User password" field
-		And enters "password" in the "Password confirm" field
+		And enters "e2eW3Bt3s71nGB3nchM4rK" in the "User password" field
+		And enters "e2eW3Bt3s71nGB3nchM4rK" in the "Password confirm" field
 		And clicks the "Create" button
 		And clicks the "Users" link
 	Then "User: TestUser000 - (test000@test.com)\nRole: User" is shown in the third row of the table
