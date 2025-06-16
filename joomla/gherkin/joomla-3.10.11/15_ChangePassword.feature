@@ -1,6 +1,7 @@
 Scenario: Changes the password of a user
 	Given the user is on the home page
-		When the user enters "tuser01" in the "Username" field
+		When the user clicks the "Author Login" link
+		And enters "tuser01" in the "Username" field
 		And enters "tpassword" in the "Password" field
 		And clicks the "Sign in" button
 	 	And enters "newpassword01" in the "Password (optional)" field

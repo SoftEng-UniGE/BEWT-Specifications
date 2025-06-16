@@ -14,5 +14,6 @@ Scenario: Tries to add a local user with non matching passwords and fails
 	Then "The password is required" is shown below the "Password" field
 	
 	Given the previous assertion passed
-	Then the user clicks on the "A" icon in the top-right corner of the screen
+	Then the user clicks the "x" icon to close the modal
+	And clicks on the "A" icon in the top-right corner of the screen
 	And clicks the "Logout" link

@@ -16,5 +16,6 @@ Scenario: Tries to add a local user with a password below 6 characters and fails
 	Then "The minimum length is 6 characters" is shown below the "Password" field
 	
 	Given the previous assertion passed
-	Then the user clicks on the "A" icon in the top-right corner of the screen
+	Then the user clicks the "x" icon to close the modal
+	And clicks on the "A" icon in the top-right corner of the screen
 	And clicks the "Logout" link

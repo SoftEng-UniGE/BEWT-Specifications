@@ -9,6 +9,4 @@ Scenario: Creates a new template
         And clicks the "Template:Software" link
         And enters "Developer: {{{dev}}} Latest version: {{{ver}}}" in the editor
         And clicks the "Save page" button
-        And enters "Page created" in the sumamry
-        And clicks the "Save page" button
     Then the page is displayed with "Template:Software" as title and the previously inserted text as body
