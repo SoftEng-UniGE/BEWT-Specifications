@@ -7,4 +7,5 @@ Scenario: A non-admin user tries to edit a protected page and fails
         And enters "Selenium WebDriver" in the search bar
         And presses Enter
         And clicks "Edit"
+        And clicks "Start editing"
     Then an error message is displayed and the editor is not available
